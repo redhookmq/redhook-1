@@ -1,15 +1,24 @@
 @import 'vars';
+@import 'mixins';
 @import 'reset';
 @import 'utilities';
+@import 'fonts';
 
 // common
-@import 'common/header';
+@import 'common/site-header';
+@import 'common/site-nav';
 @import 'common/footer';
+
+// pages
+@import 'home/hero';
+@import 'home/services';
 
 html,
 body {
   height: 100%;
   font-family: serif;
   -webkit-font-smoothing: antialiased;
-  color: $blue;
+  color: $darkText;
+  background-color: $bg;
+  font-family: $regular;
 }

@@ -7,3 +7,9 @@ type = "page"
 menu = "main"
 weight = 1
 +++
+
+
+<div class="home-page">
+  {{< partial "home/hero" >}}
+  {{< partial "home/services" >}}
+</div>

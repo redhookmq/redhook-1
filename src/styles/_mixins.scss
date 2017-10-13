@@ -1,0 +1,22 @@
+@mixin container {
+  max-width: 1287px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+@mixin section-title {
+  font-size: 54px;
+  text-transform: uppercase;
+  font-family: $bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+
+@mixin section-details {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+  text-align: center;
+  margin-bottom: 40px;
+}

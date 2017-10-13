@@ -1,0 +1,35 @@
+<section id="services" class="services">
+  <div class="services__container">
+    <h1 class="services__title">Services</h1>
+    <p class="services__details">Red Hook can usher you from project start to the first day of school, or provide a more targeted set of services.</p>
+    <div class="services__list">
+      <div class="services__list-item">
+        <div class="service">
+          <div class="service__icon-wrapper">
+            {{ partial "svgs/handshake.svg" (dict "class" "service__icon service__icon--handshake")}}
+          </div>
+          <h2 class="service__title">Turnkey</h2>
+          <p class="service__details">We buy the land, build the space and help you own it</p>
+        </div>
+      </div>
+      <div class="services__list-item">
+        <div class="service">
+          <div class="service__icon-wrapper">
+            {{ partial "svgs/shovels.svg" (dict "class" "service__icon service__icon--shovels")}}
+          </div>
+          <h2 class="service__title">Development</h2>
+          <p class="service__details">We build the optimal facility for your needs</p>
+        </div>
+      </div>
+      <div class="services__list-item">
+        <div class="service">
+          <div class="service__icon-wrapper">
+            {{ partial "svgs/building.svg" (dict "class" "service__icon service__icon--building")}}
+          </div>
+          <h2 class="service__title">Financing</h2>
+          <p class="service__details">We provide financing so you can build</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

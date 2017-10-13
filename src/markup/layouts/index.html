@@ -1,5 +1,8 @@
 {{ partial "start-page" . }}
-{{ partial "site-header" . }}
-<h1>Content Goes Here</h1>
-{{ partial "site-footer" . }}
+{{ partial "site-nav" . }}
+<div class="site-container">
+  {{ partial "site-header" . }}
+  {{ .Content }}
+  {{ partial "site-footer" . }}
+</div>
 {{ partial "end-page" . }}

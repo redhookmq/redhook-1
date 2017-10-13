@@ -1,0 +1,14 @@
+// header
+// ------------------------------------------------------------------------------------------------- //
+.site-header {
+  display: none;
+}
+  .site-header__container {
+    @include container;
+  }
+    .menu-btn {
+      display: none;
+    }
+      .menu-btn__icon {
+
+      }

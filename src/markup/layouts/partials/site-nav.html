@@ -1,16 +1,24 @@
 <nav class="site-nav">
-  {{ $currentPage := . }}
-  <ul class="site-nav__list site-nav__list--left">
-    {{- range .Site.Menus.main -}}
+  <div class="site-nav__container">
+    <a class="site-nav__logo" href="index.html">
+      {{ partial "svgs/logo-simple.svg" (dict "class" "site-nav__logo-icon")}}
+    </a>
+    <ul class="site-nav__list site-nav__list--left">
         <li class="site-nav__item">
-          <a
-            class="
-              site-nav__link
-              {{if $currentPage.IsMenuCurrent "main" .}} is-active {{end}}
-            "
-            href="{{ .URL }}"
-          >{{ .Name | title }}</a>
+          <a class="site-nav__link is-current" href="#services">Services</a>
         </li>
-    {{- end -}}
-  </ul>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#process">Process</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#case-studies">Case Studies</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#leadership">Leadership</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#contact-us">Contact Us</a>
+        </li>
+    </ul>
+  </div>
 </nav>
