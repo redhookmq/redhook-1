@@ -54,7 +54,7 @@
       color: #fff;
       position: relative;
       z-index: 3;
-      margin-top: 47px;
+      margin-top: 72px;
     }
       .hero__title {
         font-size: 70px;
@@ -68,6 +68,7 @@
         line-height: 1.4;
         max-width: 540px;
         letter-spacing: 0.005em;
+        font-family: $medium;
       }
 
     // Scroll button
@@ -96,3 +97,44 @@
         width: 12px;
         height: 7px;
       }
+
+@media (max-width: $mobileNav) {
+  .hero {
+    margin-top: 48px;
+    height: 379px;
+    background-image: url(../images/home/hero-sml.jpg);
+  }
+
+    // Container
+    // ----------------------------------------- //
+    .hero__container {
+      @include container--sml;
+    }
+
+      // Logo
+      // ----------------------------------------- //
+      .hero__logo {
+        display: none;
+      }
+
+      // Copy
+      // ----------------------------------------- //
+      .hero__copy-container {
+        margin-top: 24px;
+      }
+        .hero__title {
+          font-size: 26px;
+          margin-bottom: 12px;
+        }
+        .hero__details {
+          font-size: 14px;
+          line-height: 1.46;
+          margin-right: 10%;
+        }
+
+      // Scroll button
+      // ----------------------------------------- //
+      .scroll-down-btn {
+        display: none;
+      }
+}
