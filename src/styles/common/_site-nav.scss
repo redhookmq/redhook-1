@@ -8,10 +8,12 @@
     margin-top: -84px;
     z-index: 100;
     background-color: rgba(232, 41, 36, 0.7);
+    transition: background-color 0.3s ease;
   }
   .site-nav.is-sticky {
     position: fixed;
     top: 84px;
+    background-color: rgba(232, 41, 36, 0.95);
   }
     .site-nav__container {
       @include container;

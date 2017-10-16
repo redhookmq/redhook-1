@@ -12,4 +12,5 @@ weight = 1
 <div class="home-page">
   {{< partial "home/hero" >}}
   {{< partial "home/services" >}}
+  {{< partial "home/process" >}}
 </div>

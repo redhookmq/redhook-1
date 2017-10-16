@@ -1,0 +1,39 @@
+<section id="process" class="process">
+  <div class="process__container">
+    <h1 class="process__title">Process</h1>
+    <p class="process__details">We know that every school faces a unique set of challenges. We help chart the best course of action to have a successful build.</p>
+    <div class="slider">
+      <button class="slider__next-btn">Next Step {{ partial "svgs/chevron-right.svg" (dict "class" "slider__next-arrow")}}</button>
+      <div class="slider__container">
+        <div class="slider__slide slide">
+          <div class="slide__copy">
+            <h2 class="slide__title"><span class="slide__number">1</span> Review</h2>
+            <p class="slide__details">We review our schools’ financials, academic record, management team and competitive landscape. Once we understand its strengths and weaknesses, we create a plan that serves the school, its faculty and its students.</p>
+          </div>
+          <picture class="slide__img">
+              <source srcset="images/home/process/sml/01.jpg" media="(max-width: 768px)">
+            <source srcset="images/home/process/lrg/01.jpg">
+            <img srcset="images/home/process/lrg/01.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <ul class="slider__pagination">
+      <li class="slider__page">
+        <button class="slider__page-btn is-current">1</button>
+      </li>
+      <li class="slider__page">
+        <button class="slider__page-btn">2</button>
+      </li>
+      <li class="slider__page">
+        <button class="slider__page-btn">3</button>
+      </li>
+      <li class="slider__page">
+        <button class="slider__page-btn">4</button>
+      </li>
+      <li class="slider__page">
+        <button class="slider__page-btn">5</button>
+      </li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,130 @@
+.process {
+  margin-bottom: 300px;
+}
+  .process__container {
+    @include container;
+  }
+    .process__title {
+      @include section-title;
+    }
+    .process__details {
+      @include section-details;
+    }
+
+    // slider
+    // ----------------------------------------- //
+    .slider {
+      position: relative;
+    }
+      // button
+      // ----------------------------------------- //
+      .slider__next-btn {
+        position: absolute;
+        top: 50%;
+        right: -61px;
+        margin-top: -30px;
+        height: 60px;
+        z-index: 10;
+        background-color: $red;
+        font-size: 16px;
+        font-family: $bold;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.035em;
+        padding: 12px 26px 12px 27px;
+      }
+        .slider__next-arrow {
+          fill: #fff;
+          width: 8px;
+          height: 13px;
+          position: relative;
+          top: 1px;
+          margin-left: 6px;
+        }
+      // slider container
+      // ----------------------------------------- //
+      .slider__container {
+        margin-bottom: 25px;
+      }
+        // slide
+        // ----------------------------------------- //
+        .slider__slide {
+
+        }
+        .slide {
+          position: relative;
+          line-height: 0;
+        }
+          // copy
+          // ----------------------------------------- //
+          .slide__copy {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 64.3%;
+            height: 100%;
+            color: #fff;
+            background-color: rgba(34, 33, 32, 0.9);
+            z-index: 5;
+            padding: 82px 8% 0 8.6%;
+          }
+            .slide__title {
+              font-size: 40px;
+              text-transform: uppercase;
+              font-family: $bold;
+              letter-spacing: 0.03em;
+              margin-bottom: 38px;
+            }
+              .slide__number {
+                display: inline-block;
+                font-size: 28px;
+                font-family: $medium;
+                width: 50px;
+                height: 50px;
+                background-color: $red;
+                text-align: center;
+                line-height: 50px;
+                margin-right: 13px;
+                border-radius: 50%;
+                position: relative;
+                top: -4px;
+              }
+            .slide__details {
+              font-family: $medium;
+              font-size: 24px;
+              line-height: 1.5;
+              letter-spacing: 0.02em;
+            }
+          // image
+          // ----------------------------------------- //
+          .slide__img {
+
+          }
+
+      .slider__pagination {
+        text-align: center;
+      }
+        .slider__page {
+          display: inline-block;
+        }
+          .slider__page-btn {
+            font-family: $bold;
+            padding: 15px;
+            font-size: 22px;
+            position: relative;
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: 10px;
+              left: 15px;
+              right: 15px;
+              height: 0;
+              background-color: $red;
+            }
+          }
+          .slider__page-btn.is-current {
+            color: $red;
+            &:after {
+              height: 3px;
+            }
+          }
