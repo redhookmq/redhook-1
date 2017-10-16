@@ -69,11 +69,27 @@
               background-color: #fff;
             }
           }
+            .site-nav__icon {
+              display: none;
+            }
 }
 
 @media (max-width: $mobileNav) {
   .site-nav {
-    display: none;
+    position: fixed;
+    width: 160px;
+    top: 0;
+    right: -160px;
+    background-color: $darkGray;
+    height: 200%;
+    z-index: 200;
+    transition: all 0.3s ease;
+  }
+
+  body.has-open-nav {
+    .site-nav {
+      right: 0;
+    }
   }
     .site-nav__container {
 
@@ -93,6 +109,19 @@
 
         }
           .site-nav__link {
-
+            font-size: 12px;
+            font-family: $bold;
+            text-transform: uppercase;
+            display: block;
+            color: #fff;
+            padding: 24px 23px;
+            letter-spacing: 0.04em;
           }
+            .site-nav__icon {
+              fill: #fff;
+              width: 6px;
+              height: 9px;
+              margin-left: 8px;
+              position: relative;
+            }
 }
