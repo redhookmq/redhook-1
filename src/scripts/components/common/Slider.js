@@ -4,7 +4,9 @@ const Slider = function (element) {
   const $slider = $(element);
   const $slidesContainer = $slider.find('.slider__slides-container');
   const $slides = $slider.find('.slider__slide');
-  const $nextBtn = $slider.find('.slider__next-btn');
+  const $nextBtn = $slider.find('.js-next-btn');
+  const $lastBtn = $slider.find('.js-last-btn');
+  const $nextNumber = $slider.find('.slider__next-number');
   const $pagination = $slider.find('.slider__page-btn');
   let currentIndex = 0;
 
@@ -24,6 +26,11 @@ const Slider = function (element) {
       e.preventDefault();
       nextSlide();
     });
+
+    $lastBtn.click((e) => {
+      e.preventDefault();
+      goToSlide(0);
+    });
   };
 
   const nextSlide = function () {
@@ -33,6 +40,9 @@ const Slider = function (element) {
   const goToSlide = function (index) {
     // update the index
     currentIndex = index;
+
+    // update next button
+    $nextNumber.text(currentIndex + 2);
 
     // move the slides
     $slidesContainer.css('transform', `translateX(-${index * 100}%)`);

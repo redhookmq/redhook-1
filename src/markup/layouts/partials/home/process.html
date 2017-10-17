@@ -4,70 +4,71 @@
     <p class="process__details">We know that every school faces a unique set of challenges. We help chart the best course of action to have a successful build.</p>
     <div class="slider">
       <div class="slider__container">
-        <button class="slider__next-btn">
-          <span class="slider__next-copy--large">Next Step</span>
-          <span class="slider__next-copy--sml">Next: Step <span class="slider__next-number">2</span></span>
-          {{ partial "svgs/chevron-right.svg" (dict "class" "slider__next-arrow")}}
-        </button>
         <div class="slider__slides-mask">
           <div class="slider__slides-container">
             <div class="slider__slide slide">
+              <picture class="slide__img">
+                <source srcset="images/home/process/sml/01.jpg" media="(max-width: 870px)">
+                <source srcset="images/home/process/lrg/01.jpg">
+                <img srcset="images/home/process/lrg/01.jpg" alt="">
+              </picture>
               <div class="slide__copy">
                 <h2 class="slide__title"><span class="slide__number">1</span> Review</h2>
                 <p class="slide__details">We review our schools’ financials, academic record, management team and competitive landscape. Once we understand its strengths and weaknesses, we create a plan that serves the school, its faculty and its students.</p>
               </div>
-              <picture class="slide__img">
-                <source srcset="images/home/process/sml/01.jpg" media="(max-width: 768px)">
-                <source srcset="images/home/process/lrg/01.jpg">
-                <img srcset="images/home/process/lrg/01.jpg" alt="">
-              </picture>
             </div>
             <div class="slider__slide slide">
+              <picture class="slide__img">
+                <source srcset="images/home/process/sml/02.jpg" media="(max-width: 870px)">
+                <source srcset="images/home/process/lrg/02.jpg">
+                <img srcset="images/home/process/lrg/02.jpg" alt="">
+              </picture>
               <div class="slide__copy">
                 <h2 class="slide__title"><span class="slide__number">2</span> Site Search</h2>
                 <p class="slide__details">With property identified and under contract, we work with the school on entitlement and development plans. Our team is deeply experienced with the challenges that arise, and we will drive the effort to resolve conflicts.</p>
               </div>
-              <picture class="slide__img">
-                <source srcset="images/home/process/sml/02.jpg" media="(max-width: 768px)">
-                <source srcset="images/home/process/lrg/02.jpg">
-                <img srcset="images/home/process/lrg/02.jpg" alt="">
-              </picture>
             </div>
             <div class="slider__slide slide">
+              <picture class="slide__img">
+                <source srcset="images/home/process/sml/03.jpg" media="(max-width: 870px)">
+                <source srcset="images/home/process/lrg/03.jpg">
+                <img srcset="images/home/process/lrg/03.jpg" alt="">
+              </picture>
               <div class="slide__copy">
                 <h2 class="slide__title"><span class="slide__number">3</span> Develop</h2>
                 <p class="slide__details">In partnership with the school, Red Hook manages the execution of the development plan. With years of construction experience, our team of building experts can save time, money and reduce risks.</p>
               </div>
-              <picture class="slide__img">
-                <source srcset="images/home/process/sml/03.jpg" media="(max-width: 768px)">
-                <source srcset="images/home/process/lrg/03.jpg">
-                <img srcset="images/home/process/lrg/03.jpg" alt="">
-              </picture>
             </div>
             <div class="slider__slide slide">
+              <picture class="slide__img">
+                <source srcset="images/home/process/sml/04.jpg" media="(max-width: 870px)">
+                <source srcset="images/home/process/lrg/04.jpg">
+                <img srcset="images/home/process/lrg/04.jpg" alt="">
+              </picture>
               <div class="slide__copy">
                 <h2 class="slide__title"><span class="slide__number">4</span> Lease</h2>
                 <p class="slide__details">Red Hook provides an open-book lease negotiation process. We then act as the landlord and the school is the proud new tenant. </p>
               </div>
-              <picture class="slide__img">
-                <source srcset="images/home/process/sml/04.jpg" media="(max-width: 768px)">
-                <source srcset="images/home/process/lrg/04.jpg">
-                <img srcset="images/home/process/lrg/04.jpg" alt="">
-              </picture>
             </div>
             <div class="slider__slide slide">
+              <picture class="slide__img">
+                <source srcset="images/home/process/sml/05.jpg" media="(max-width: 870px)">
+                <source srcset="images/home/process/lrg/05.jpg">
+                <img srcset="images/home/process/lrg/05.jpg" alt="">
+              </picture>
               <div class="slide__copy">
                 <h2 class="slide__title"><span class="slide__number">5</span> Purchase</h2>
                 <p class="slide__details">We want you to own, and we will work with you to buy your building when you’re in the best position to do so. </p>
               </div>
-              <picture class="slide__img">
-                <source srcset="images/home/process/sml/05.jpg" media="(max-width: 768px)">
-                <source srcset="images/home/process/lrg/05.jpg">
-                <img srcset="images/home/process/lrg/05.jpg" alt="">
-              </picture>
             </div>
           </div>
         </div>
+        <button class="slider__next-btn js-next-btn">
+          <span class="slider__next-copy--lrg">Next Step</span>
+          <span class="slider__next-copy--sml">Next: Step <span class="slider__next-number">2</span></span>
+          {{ partial "svgs/chevron-right.svg" (dict "class" "slider__next-arrow")}}
+        </button>
+        <button class="slider__next-btn slider__next-btn--last js-last-btn">Back to Step 1</button>
       </div>
       <ul class="slider__pagination">
         <li class="slider__page">
