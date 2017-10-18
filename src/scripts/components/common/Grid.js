@@ -20,6 +20,10 @@ const Grid = function (element) {
       percentPosition: true,
       filter: '.is-first'
     });
+
+    if ($items.length > 3) {
+      $ctaBtn.show();
+    }
   };
 
   const bind = function () {
