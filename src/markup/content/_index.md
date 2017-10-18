@@ -14,4 +14,5 @@ weight = 1
   {{< partial "home/services" >}}
   {{< partial "home/process" >}}
   {{< partial "home/case-studies" >}}
+  {{< partial "home/leadership" >}}
 </div>

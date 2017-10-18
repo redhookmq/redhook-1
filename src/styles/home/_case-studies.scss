@@ -1,5 +1,5 @@
 .case-studies {
-  margin-bottom: 135px;
+  margin-bottom: 154px;
 }
   .case-studies__container {
     @include container;
@@ -240,7 +240,7 @@
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .case-studies {
-    // margin-bottom: 135px;
+    margin-bottom: 45px;
   }
     .case-studies__container {
       @include container--sml;
