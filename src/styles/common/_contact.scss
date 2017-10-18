@@ -1,0 +1,62 @@
+.contact {
+  background: url(../images/map.jpg) no-repeat center center;
+  background-size: cover;
+}
+  .contact__container {
+    @include container;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+    .contact__block {
+      width: 500px;
+      background-color: #fff;
+      padding: 85px 103px;
+    }
+      .contact__detail:not(:last-child) {
+        margin-bottom: 30px;
+      }
+        .contact__link {
+          display: flex;
+          color: $darkText;
+          font-size: 20px;
+          line-height: 1.6;
+          font-family: $medium;
+        }
+          // icon
+          // ----------------------------------------- //
+          .contact__icon-wrapper {
+            width: 35px;
+            text-align: center;
+            margin-right: 18px;
+          }
+            .contact__icon {
+              fill: $red;
+              position: relative;
+            }
+            .contact__icon--phone {
+              width: 31px;
+              height: 30px;
+            }
+            .contact__icon--email {
+              width: 32px;
+              height: 20px;
+              top: 5px;
+            }
+            .contact__icon--map-marker {
+              width: 22px;
+              height: 30px;
+            }
+          .contact__text {
+            strong {
+              font-family: $bold;
+            }
+          }
+            .contact__arrow {
+              width: 8px;
+              height: 13px;
+              position: relative;
+              top: 1px;
+              margin-left: 5px;
+            }
