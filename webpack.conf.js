@@ -101,7 +101,10 @@ export default {
       'jquery',
       'jquery.easing',
       'modernizr',
-      'postal'
+      'postal',
+      'isotope',
+      'masonry',
+      'packery'
     ]
   },
 
@@ -140,7 +143,10 @@ export default {
     alias: {
       modernizr$: path.resolve(__dirname, '.modernizrrc'),
       postal: path.resolve('node_modules', 'postal/lib/postal.lodash.js'),
-      Easing: path.resolve('node_modules', 'gsap/src/uncompressed/easing/EasePack.js')
+      Easing: path.resolve('node_modules', 'gsap/src/uncompressed/easing/EasePack.js'),
+      masonry: 'masonry-layout',
+      isotope: 'isotope-layout',
+      'isotope-packery': 'isotope-packery/packery-mode.pkgd.min.js'
     }
   },
 

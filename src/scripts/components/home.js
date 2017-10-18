@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import Slider from './common/Slider';
+import Grid from './common/Grid';
 
 const $window = $(window);
 
@@ -16,6 +17,12 @@ $('.scroll-down-btn').click((e) => {
 // ----------------------------------------- //
 $('.slider').each((i, el) => {
   const thisSlider = new Slider(el);
+});
+
+// init grids
+// ----------------------------------------- //
+$('.grid').each((i, el) => {
+  const thisGrid = new Grid(el);
 });
 
 
