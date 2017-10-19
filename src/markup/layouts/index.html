@@ -1,9 +1,9 @@
-{{ partial "start-page" . }}
-{{ partial "site-nav" . }}
+{{ partial "common/start-page" . }}
+{{ partial "common/site-nav" . }}
 <div class="site-container">
-  {{ partial "site-header" . }}
+  {{ partial "common/site-header" . }}
   {{ .Content }}
-  {{ partial "site-footer" . }}
+  {{ partial "common/site-footer" . }}
   <div class="site-container__mask"></div>
 </div>
-{{ partial "end-page" . }}
+{{ partial "common/end-page" . }}
