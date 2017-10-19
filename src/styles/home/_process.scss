@@ -1,5 +1,5 @@
 .process {
-  margin-bottom: 135px;
+  margin-bottom: 75px;
 }
   .process__container {
     @include container;
@@ -174,7 +174,7 @@
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .process {
-    margin-bottom: 47px;
+    margin-bottom: 0;
   }
   .process__container {
     @include container--sml;

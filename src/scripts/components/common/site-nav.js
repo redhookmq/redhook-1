@@ -1,11 +1,14 @@
 import $ from 'jquery';
 import debounce from 'lodash/debounce';
+import { NAV_BREAKPOINT, NAV_HEIGHT } from '../../constants/Constants';
 
 const $window = $(window);
-const $body = $('body');
+const $body = $('html, body');
 const $mask = $('.site-container__mask');
 const $siteNav = $('.site-nav');
 const $menuBtn = $('.menu-btn');
+const $links = $('.site-nav__link');
+const $siteSections = $('.js-site-section');
 let windowHeight = $window.height();
 let isSticky = false;
 
@@ -27,6 +30,16 @@ const bind = function () {
   $mask.click((e) => {
     e.preventDefault();
     closeNav();
+  });
+
+  $links.each((i, el) => {
+    const $el = $(el);
+    const id = $el.attr('href');
+
+    $el.click((e) => {
+      e.preventDefault();
+      scrollToSection(id);
+    });
   });
 
   $window.on('scroll', () => {
@@ -58,6 +71,20 @@ const checkScrollPosition = function () {
     isSticky = false;
     $siteNav.removeClass('is-sticky');
   }
+};
+
+const scrollToSection = function (id) {
+  let offset = $(id).offset().top;
+
+  closeNav();
+
+  if ($window.width() >= NAV_BREAKPOINT) {
+    offset -= NAV_HEIGHT;
+  }
+
+  $body.animate({
+    scrollTop: offset
+  }, 500, 'easeInOutQuad');
 };
 
 init();

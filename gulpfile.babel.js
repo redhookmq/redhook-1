@@ -27,7 +27,7 @@ const hugoBin = 'hugo';
 //   '!src/styles{,/**}'
 // ];
 const staticFiles = [
-  './src/.favicon.png',
+  './src/favicon.png',
   './src/data/**/*.*',
   './src/docs/**/*.*',
   './src/fonts/**/*.*',

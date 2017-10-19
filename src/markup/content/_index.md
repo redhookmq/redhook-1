@@ -14,7 +14,9 @@ weight = 1
   {{< partial "home/services" >}}
   {{< partial "home/process" >}}
   {{< partial "home/case-studies" >}}
-  {{< partial "home/leadership" >}}
-  {{< partial "home/bios" >}}
+  <div id="leadership" class="leadership-and-bios js-site-section">
+    {{< partial "home/leadership" >}}
+    {{< partial "home/bios" >}}
+  </div>
   {{< partial "common/contact" >}}
 </div>

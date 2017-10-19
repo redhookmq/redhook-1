@@ -5,6 +5,7 @@
 }
   .site-header__container {
     @include container;
+    padding-top: 0;
   }
     // logo
     // ----------------------------------------- //
@@ -38,6 +39,7 @@
   }
     .site-header__container {
       @include container--sml;
+      padding-top: 0;
       display: flex;
       justify-content: space-between;
     }

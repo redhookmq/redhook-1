@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import Slider from './common/Slider';
 import Grid from './common/Grid';
-import NAV_BREAKPOINT from '../constants/Constants';
+import { NAV_BREAKPOINT, NAV_HEIGHT } from '../constants/Constants';
 
 const $window = $(window);
 
@@ -65,7 +65,7 @@ const openBio = function (id) {
   let offset = $biosSection.offset().top;
 
   if ($window.width() >= NAV_BREAKPOINT) {
-    offset -= 84;
+    offset -= NAV_HEIGHT;
   }
 
   $body.animate({

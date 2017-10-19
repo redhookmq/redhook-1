@@ -1,13 +1,13 @@
 .leadership {
   overflow: hidden;
   position: relative;
+  margin-bottom: 90px;
 }
 .leadership.is-open {
   display: none;
 }
   .leadership__container {
     @include container;
-    margin-bottom: 150px;
   }
     .leadership__title {
       @include section-title;
@@ -115,7 +115,7 @@
 // single column
 // ----------------------------------------- //
 @media (max-width: 550px) {
-  .leadership__container {
+  .leadership {
     margin-bottom: 0;
   }
   // leaders
@@ -141,8 +141,8 @@
 // mobile styles
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
-  .leadership__container {
-    margin-bottom: 50px;
+  .leadership {
+    // margin-bottom: 0px;
   }
 
     .leadership__container {

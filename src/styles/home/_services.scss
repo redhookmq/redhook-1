@@ -1,9 +1,8 @@
 .services {
-  margin-bottom: 145px;
+  margin-bottom: 85px;
 }
   .services__container {
     @include container;
-    padding-top: 144px;
   }
     // intro
     // ----------------------------------------- //
@@ -98,11 +97,10 @@
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .services {
-    margin-bottom: 35px;
+    margin-bottom: 0;
   }
     .services__container {
       @include container--sml;
-      padding-top: 44px;
     }
       // intro
       // ----------------------------------------- //
