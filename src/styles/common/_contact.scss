@@ -1,5 +1,5 @@
 .contact {
-  background: url(../images/map.jpg) no-repeat center center;
+  background: url(../images/map-lrg.jpg) no-repeat center center;
   background-size: cover;
 }
   .contact__container {
@@ -9,6 +9,9 @@
     justify-content: flex-end;
     align-items: center;
   }
+    .contact__img {
+      display: none;
+    }
     .contact__block {
       width: 500px;
       background-color: #fff;
@@ -59,4 +62,76 @@
               position: relative;
               top: 1px;
               margin-left: 5px;
+              fill: $red;
             }
+
+// stack map above info
+// ----------------------------------------- //
+@media (max-width: $mobileNav) {
+  .contact {
+    background: none;
+  }
+    .contact__container {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+      .contact__img {
+        display: block;
+        height: 220px;
+        background: url(../images/map-sml.jpg) no-repeat center center;
+        background-size: cover;
+      }
+      .contact__block {
+        width: 100%;
+        padding: 25px 12px 20px;
+      }
+        .contact__detail:not(:last-child) {
+          margin-bottom: 17px;
+        }
+          .contact__link {
+            font-size: 14px;
+            // display: flex;
+            // color: $darkText;
+            // line-height: 1.6;
+            // font-family: $medium;
+          }
+            // icon
+            // ----------------------------------------- //
+            .contact__icon-wrapper {
+              // width: 35px;
+              // text-align: center;
+              margin-right: 6px;
+            }
+              .contact__icon {
+                // fill: $red;
+                // position: relative;
+              }
+              .contact__icon--phone {
+                width: 21px;
+                height: 20px;
+              }
+              .contact__icon--email {
+                width: 20px;
+                height: 12px;
+                top: 1px;
+              }
+              .contact__icon--map-marker {
+                width: 15px;
+                height: 20px;
+              }
+            .contact__text {
+              // strong {
+              //   font-family: $bold;
+              // }
+            }
+              .contact__arrow {
+                // width: 8px;
+                // height: 13px;
+                // position: relative;
+                // top: 1px;
+                // margin-left: 5px;
+              }
+}
