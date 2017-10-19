@@ -1,5 +1,5 @@
 .services {
-  margin-bottom: 85px;
+  padding-bottom: 85px;
 }
   .services__container {
     @include container;
@@ -97,7 +97,7 @@
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .services {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
     .services__container {
       @include container--sml;

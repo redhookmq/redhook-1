@@ -70,14 +70,19 @@
             padding: 0 5px;
             letter-spacing: 0.05em;
 
-            &.is-current:after {
+            &:after {
               content: "";
               position: absolute;
               bottom: 0;
               left: 3px;
               right: 3px;
-              height: 5px;
+              height: 0;
               background-color: #fff;
+              transition: height 0.15s ease;
+            }
+
+            &.is-current:after {
+              height: 5px;
             }
           }
             .site-nav__icon {

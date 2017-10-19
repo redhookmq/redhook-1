@@ -1,8 +1,12 @@
 import $ from 'jquery';
 import Isotope from 'isotope-layout';
 import packery from 'isotope-packery';
+import postal from 'postal';
+
+import { HOME_CHANNEL } from '../../constants/Constants';
 
 const Grid = function (element) {
+  const channel = postal.channel(HOME_CHANNEL);
   const breakpoint = 800;
   const $window = $(window);
   const $grid = $(element);
@@ -21,9 +25,12 @@ const Grid = function (element) {
       filter: '.is-first'
     });
 
+
     if ($items.length > 3) {
       $ctaBtn.show();
     }
+
+    channel.publish('grid.resize');
   };
 
   const bind = function () {
@@ -59,6 +66,8 @@ const Grid = function (element) {
       $isotope.arrange({ filter: '.is-hidden, .is-first' });
 
       $ctaBtn.hide();
+
+      channel.publish('grid.resize');
     });
   };
 

@@ -62,7 +62,7 @@ const openBio = function (id) {
   $leadershipSection.addClass('is-open');
   $biosSection.addClass('is-open');
 
-  let offset = $biosSection.offset().top;
+  let offset = $biosSection.offset().top + 2;
 
   if ($window.width() >= NAV_BREAKPOINT) {
     offset -= NAV_HEIGHT;
@@ -95,5 +95,4 @@ const closeBio = function () {
   $leadershipSection.removeClass('is-open');
   $biosSection.removeClass('is-open');
 };
-
 

@@ -1,7 +1,11 @@
 import $ from 'jquery';
 import debounce from 'lodash/debounce';
-import { NAV_BREAKPOINT, NAV_HEIGHT } from '../../constants/Constants';
+import throttle from 'lodash/throttle';
+import postal from 'postal';
+import Section from './Section';
+import { NAV_BREAKPOINT, NAV_HEIGHT, HOME_CHANNEL } from '../../constants/Constants';
 
+const channel = postal.channel(HOME_CHANNEL);
 const $window = $(window);
 const $body = $('html, body');
 const $mask = $('.site-container__mask');
@@ -9,12 +13,22 @@ const $siteNav = $('.site-nav');
 const $menuBtn = $('.menu-btn');
 const $links = $('.site-nav__link');
 const $siteSections = $('.js-site-section');
+let viewport = 'desktop';
 let windowHeight = $window.height();
 let isSticky = false;
 
 // init
 // ----------------------------------------- //
 const init = function () {
+  // build site sections
+  if ($siteSections.length > 0) {
+    $siteSections.each((i, el) => {
+      const newSection = new Section(el);
+    });
+  }
+
+  checkNavPosition();
+  checkWindowSize();
   checkScrollPosition();
   bind();
 };
@@ -43,12 +57,20 @@ const bind = function () {
   });
 
   $window.on('scroll', () => {
-    checkScrollPosition();
+    checkNavPosition();
   });
 
+  $window.on('scroll', throttle(() => {
+    checkScrollPosition();
+  }, 100));
+
   $window.on('resize', debounce(() => {
-    windowHeight = $window.height();
+    checkWindowSize();
   }, 300));
+
+  channel.subscribe('section.isCurrent', (id) => {
+    makeSectionCurrent(id);
+  });
 };
 
 // methods
@@ -61,8 +83,8 @@ const closeNav = function () {
   $body.removeClass('has-open-nav');
 };
 
-const checkScrollPosition = function () {
-  if ($window.scrollTop() > windowHeight - 84) {
+const checkNavPosition = function () {
+  if ($window.scrollTop() > windowHeight - NAV_HEIGHT) {
     if (isSticky === false) {
       isSticky = true;
       $siteNav.addClass('is-sticky');
@@ -73,8 +95,29 @@ const checkScrollPosition = function () {
   }
 };
 
+const checkWindowSize = function () {
+  windowHeight = $window.height();
+
+  if ($window.width() >= NAV_BREAKPOINT) {
+    viewport = 'desktop';
+  } else {
+    viewport = 'mobile';
+  }
+
+  channel.publish('window.resize');
+};
+
+const checkScrollPosition = function () {
+  let offset = 0;
+
+  if (viewport === 'desktop') {
+    offset = NAV_HEIGHT;
+  }
+  channel.publish('window.scroll', $window.scrollTop() + offset);
+};
+
 const scrollToSection = function (id) {
-  let offset = $(id).offset().top;
+  let offset = $(id).offset().top + 1;
 
   closeNav();
 
@@ -85,6 +128,17 @@ const scrollToSection = function (id) {
   $body.animate({
     scrollTop: offset
   }, 500, 'easeInOutQuad');
+};
+
+const makeSectionCurrent = function (id) {
+  $links.each((i, el) => {
+    const $el = $(el);
+    if (id === $el.attr('href').replace('#', '')) {
+      $el.addClass('is-current');
+    } else {
+      $el.removeClass('is-current');
+    }
+  });
 };
 
 init();
