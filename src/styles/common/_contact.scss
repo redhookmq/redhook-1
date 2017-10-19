@@ -93,21 +93,13 @@
         }
           .contact__link {
             font-size: 14px;
-            // display: flex;
-            // color: $darkText;
-            // line-height: 1.6;
-            // font-family: $medium;
           }
             // icon
             // ----------------------------------------- //
             .contact__icon-wrapper {
-              // width: 35px;
-              // text-align: center;
               margin-right: 6px;
             }
               .contact__icon {
-                // fill: $red;
-                // position: relative;
               }
               .contact__icon--phone {
                 width: 21px;
@@ -123,15 +115,14 @@
                 height: 20px;
               }
             .contact__text {
-              // strong {
-              //   font-family: $bold;
-              // }
+              strong {
+                display: inline-block;
+                margin-top: 5px;
+              }
             }
               .contact__arrow {
-                // width: 8px;
-                // height: 13px;
-                // position: relative;
-                // top: 1px;
-                // margin-left: 5px;
+                width: 5px;
+                height: 8px;
+                top: 0;
               }
 }
