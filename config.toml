@@ -2,7 +2,7 @@
 
 baseurl = "/"
 languageCode = "en-us"
-title = "Steven Waller"
+title = "Red Hook Capital Partners"
 
 # Directory locations
 publishDir = "dist"
