@@ -3,6 +3,7 @@
 }
   .process__container {
     @include container;
+    padding-top: 60px;
   }
     .process__title {
       @include section-title;
@@ -178,6 +179,7 @@
   }
   .process__container {
     @include container--sml;
+    padding-top: 44px;
   }
 
   // intro

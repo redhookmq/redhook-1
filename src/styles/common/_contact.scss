@@ -4,6 +4,7 @@
 }
   .contact__container {
     @include container;
+    padding-top: 60px;
     height: 700px;
     display: flex;
     justify-content: flex-end;

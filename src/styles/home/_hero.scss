@@ -34,7 +34,6 @@
   // ----------------------------------------- //
   .hero__container {
     @include container;
-    padding-top: 0;
   }
 
     // Logo
@@ -112,7 +111,6 @@
     // ----------------------------------------- //
     .hero__container {
       @include container--sml;
-      padding-top: 0;
     }
 
       // Logo

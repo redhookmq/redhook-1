@@ -1,11 +1,11 @@
 @mixin container {
   max-width: 1287px;
-  padding: 60px 60px 0;
+  padding-right: 60px;
+  padding-left: 60px;
   margin: 0 auto;
 }
 
 @mixin container--sml {
-  padding-top: 44px;
   padding-right: 20px;
   padding-left: 20px;
 }

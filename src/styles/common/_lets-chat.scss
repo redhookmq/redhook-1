@@ -3,6 +3,7 @@
 }
 .lets-chat__container {
   @include container;
+  padding-top: 60px;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -32,6 +33,7 @@
 @media (max-width: $mobileNav) {
   .lets-chat__container {
     @include container--sml;
+    padding-top: 44px;
     padding-bottom: 44px;
   }
   .lets-chat__title {

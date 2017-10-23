@@ -8,6 +8,7 @@
 }
   .leadership__container {
     @include container;
+    padding-top: 60px;
   }
     .leadership__title {
       @include section-title;
@@ -147,6 +148,7 @@
 
     .leadership__container {
       @include container--sml;
+      padding-top: 44px;
     }
     // Intro
     // ----------------------------------------- //

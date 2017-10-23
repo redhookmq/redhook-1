@@ -3,6 +3,7 @@
 }
   .case-studies__container {
     @include container;
+    padding-top: 60px;
   }
     // Intro
     // ----------------------------------------- //
@@ -244,6 +245,7 @@
   }
     .case-studies__container {
       @include container--sml;
+      padding-top: 44px;
     }
       // Intro
       // ----------------------------------------- //

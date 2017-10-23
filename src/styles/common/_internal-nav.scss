@@ -17,7 +17,6 @@
   }
     .internal-nav__container {
       @include container;
-      padding-top: 0;
       display: flex;
       transition: all 0.3s ease;
     }
