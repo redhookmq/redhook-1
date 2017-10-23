@@ -1,0 +1,49 @@
+.lets-chat {
+
+}
+.lets-chat__container {
+  @include container;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.lets-chat__title {
+  font-size: 68px;
+  color: $red;
+  text-transform: uppercase;
+  font-family: $bold;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.lets-chat__cta {
+}
+.lets-chat__cta-link {
+  font-size: 24px;
+  color: $darkText;
+  font-family: $medium;
+}
+.lets-chat__icon {
+  fill: $red;
+  width: 9px;
+  height: 13px;
+  margin-left: 4px;
+}
+
+
+@media (max-width: $mobileNav) {
+  .lets-chat__container {
+    @include container--sml;
+    padding-bottom: 44px;
+  }
+  .lets-chat__title {
+    font-size: 34px;
+    margin-bottom: 5px;
+  }
+  .lets-chat__cta-link {
+    font-size: 12px;
+  }
+  .lets-chat__icon {
+    width: 4px;
+    height: 6px;
+    margin-left: 3px;
+  }
+}
