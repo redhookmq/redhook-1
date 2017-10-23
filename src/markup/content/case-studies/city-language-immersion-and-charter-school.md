@@ -6,5 +6,6 @@ draft = false
 type = "page"
 +++
 
-{{< partial "home/hero" >}}
+{{< partial "case-studies/header" >}}
+{{< partial "common/lets-chat" >}}
 {{< partial "common/contact" >}}

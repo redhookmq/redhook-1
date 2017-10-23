@@ -7,16 +7,21 @@
 // common
 @import 'common/site-header';
 @import 'common/site-nav';
+@import 'common/internal-nav';
 @import 'common/site-footer';
 @import 'common/contact';
+@import 'common/lets-chat';
 
-// pages
+// home
 @import 'home/hero';
 @import 'home/services';
 @import 'home/process';
 @import 'home/case-studies';
 @import 'home/leadership';
 @import 'home/bios';
+
+// case studies
+@import 'case-studies/header';
 
 html,
 body {
