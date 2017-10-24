@@ -86,6 +86,11 @@
     max-width: 530px;
     margin: 0 auto;
   }
+  .tout__title {
+    // font-size: 9.4vw;
+    // calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+    font-size: calc(30px + (50 - 30) * ((100vw - 320px) / (870 - 320)));
+  }
   // details
   // ----------------------------------------- //
   .tout__details {
