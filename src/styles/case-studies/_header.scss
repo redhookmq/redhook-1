@@ -1,0 +1,119 @@
+.cs-header {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+  }
+  &:before {
+    height: 206px;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 9%, rgba(0,0,0,0.5) 100%);
+    top: 0;
+  }
+  &:after {
+    height: 507px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 98%, rgba(0,0,0,0) 100%);
+    bottom: 0;
+  }
+}
+.cs-header__container {
+  @include container;
+  position: relative;
+  height: 733px;
+}
+// close link
+// ----------------------------------------- //
+.cs-header__close-link {
+  position: absolute;
+  top: 136px;
+  right: 56px;
+  z-index: 30;
+}
+.cs-header__close-icon {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+// copy
+// ----------------------------------------- //
+.cs-header__copy {
+  position: absolute;
+  bottom: 89px;
+  left: 56px;
+  color: #fff;
+  z-index: 20;
+}
+.cs-header__title {
+  font-size: 28px;
+  font-family: $medium;
+  margin-bottom: 18px;
+}
+.cs-header__sub-title {
+  font-family: $bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.038em;
+  line-height: 1.13;
+  max-width: 1000px;
+}
+.cs-header__img-wrapper {
+
+}
+.cs-header__img {
+
+}
+
+@media (max-width: $mobileNav) {
+  .cs-header {
+    margin-top: 48px;
+    &:before {
+      display: none;
+    }
+    &:after {
+      height: 430px;
+    }
+  }
+  .cs-header__container {
+    @include container--sml;
+    height: 380px;
+  }
+  // close link
+  // ----------------------------------------- //
+  .cs-header__close-link {
+    top: 25px;
+    right: 21px;
+  }
+  .cs-header__close-icon {
+    width: 20px;
+    height: 20px;
+  }
+  // copy
+  // ----------------------------------------- //
+  .cs-header__copy {
+    bottom: 18px;
+    left: 19px;
+    right: 19px;
+  }
+  .cs-header__title {
+    font-size: 14px;
+    margin-bottom: 13px;
+    line-height: 1.5;
+  }
+  .cs-header__sub-title {
+    font-size: 21px;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+  }
+  .cs-header__img-wrapper {
+
+  }
+  .cs-header__img {
+
+  }
+}

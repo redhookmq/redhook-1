@@ -1,12 +1,9 @@
-<section class="cs-header">
+<section class="cs-header" style="background-image:url({{ "images/case-studies/clic.jpg" | relURL }});">
   <div class="cs-header__container">
-    <button class="cs-header__close-btn">{{ partial "svgs/close.svg" (dict "class" "cs-header__close-icon")}}</button>
+    <a class="cs-header__close-link" href="{{ "index.html" | relURL }}">{{ partial "svgs/close.svg" (dict "class" "cs-header__close-icon")}}</a>
     <div class="cs-header__copy">
-      <h1 class="cs-header__sub-title">City Language Immersion and Charter School (CLIC)</h1>
-      <p class="cs-header__title">Solving the challenge of building new schools in fully developed neighborhoods</p>
+      <h1 class="cs-header__title">City Language Immersion and Charter School (CLIC)</h1>
+      <p class="cs-header__sub-title">Solving the challenge of building new schools in fully developed neighborhoods</p>
     </div>
-    <p class="cs-header__img-wrapper">
-    <img src="{{ "images/case-studies/clic.jpg" | relURL }}" alt="" class="cs-header__img">
-    </p>
   </div>
 </section>
