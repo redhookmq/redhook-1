@@ -7,6 +7,7 @@ type = "page"
 +++
 
 {{< partial "case-studies/header" >}}
+{{< partial "case-studies/touts" >}}
 {{< partial "case-studies/pull-quote" >}}
 {{< partial "common/lets-chat" >}}
 {{< partial "common/contact" >}}
