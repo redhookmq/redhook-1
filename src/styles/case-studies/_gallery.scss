@@ -75,7 +75,7 @@
   position: relative;
   padding-top: 62.343966713%;
   z-index: 1;
-  background-color: $bg;
+  background-color: #282625;
   &:after {
     content: "";
     position: absolute;
@@ -107,6 +107,14 @@
   bottom: 27px;
   left: 60px;
   right: 313px;
+}
+
+// max height for large screens. Otherwise gallery image take are too tall.
+@media (min-width: 1400px) {
+  .cs-slide__img-wrapper {
+    padding-top: 0;
+    height: 1000px;
+  }
 }
 
 @media (max-width: $mobileNav) {
