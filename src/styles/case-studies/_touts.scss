@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 122px;
   strong {
     display: inline;
     color: $red;
@@ -98,7 +99,6 @@
     font-family: $medium;
     letter-spacing: 0.05em;
     line-height: 1.42;
-    min-height: 155px;
     p {
       padding: 31px 6% 34px;
     }
