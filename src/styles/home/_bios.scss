@@ -8,7 +8,7 @@
 }
 .bios__container {
   @include container;
-  padding-top: 72px;
+  padding-top: 156px;
   padding-bottom: 70px;
   display: flex;
 }
@@ -33,7 +33,7 @@
 // ----------------------------------------- //
 .bios__close-btn {
   position: absolute;
-  top: 72px;
+  top: 156px;
   right: 60px;
 }
 .bios__close-icon {

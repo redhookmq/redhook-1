@@ -1,9 +1,9 @@
 .services {
-  padding-bottom: 85px;
+
 }
   .services__container {
     @include container;
-    padding-top: 60px;
+    padding-top: 144px;
   }
     // intro
     // ----------------------------------------- //
@@ -102,6 +102,7 @@
   }
     .services__container {
       @include container--sml;
+      padding-top: 44px;
     }
       // intro
       // ----------------------------------------- //

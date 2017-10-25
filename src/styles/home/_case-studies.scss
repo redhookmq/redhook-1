@@ -1,9 +1,9 @@
 .case-studies {
-  margin-bottom: 94px;
+  margin-bottom: 10px;
 }
   .case-studies__container {
     @include container;
-    padding-top: 60px;
+    padding-top: 144px;
   }
     // Intro
     // ----------------------------------------- //
@@ -40,6 +40,13 @@
           width: 50%;
           padding-top: 30.354%;
         }
+        .grid-item.is-hidden {
+          display: none;
+        }
+        .grid.is-showing-all .is-hidden {
+          display: block;
+        }
+
         .grid-item--vertical {
           padding-top: 60.708%;
         }

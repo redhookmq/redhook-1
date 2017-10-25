@@ -3,7 +3,7 @@ import debounce from 'lodash/debounce';
 import throttle from 'lodash/throttle';
 import postal from 'postal';
 import Section from './Section';
-import { NAV_BREAKPOINT, NAV_HEIGHT, HOME_CHANNEL } from '../../constants/Constants';
+import { NAV_HEIGHT, HOME_CHANNEL } from '../../constants/Constants';
 
 const channel = postal.channel(HOME_CHANNEL);
 const $window = $(window);
@@ -13,7 +13,6 @@ const $siteNav = $('.site-nav');
 const $menuBtn = $('.menu-btn');
 const $links = $('.js-nav-link');
 const $siteSections = $('.js-site-section');
-let viewport = 'desktop';
 let windowHeight = $window.height();
 let isSticky = false;
 
@@ -98,35 +97,18 @@ const checkNavPosition = function () {
 const checkWindowSize = function () {
   windowHeight = $window.height();
 
-  if ($window.width() >= NAV_BREAKPOINT) {
-    viewport = 'desktop';
-  } else {
-    viewport = 'mobile';
-  }
-
   channel.publish('window.resize');
 };
 
 const checkScrollPosition = function () {
-  let offset = 0;
-
-  if (viewport === 'desktop') {
-    offset = NAV_HEIGHT;
-  }
-  channel.publish('window.scroll', $window.scrollTop() + offset);
+  channel.publish('window.scroll', $window.scrollTop());
 };
 
 const scrollToSection = function (id) {
-  let offset = $(id).offset().top + 1;
-
   closeNav();
 
-  if ($window.width() >= NAV_BREAKPOINT) {
-    offset -= NAV_HEIGHT;
-  }
-
   $body.animate({
-    scrollTop: offset
+    scrollTop: $(id).offset().top + 1
   }, 500, 'easeInOutQuad');
 };
 

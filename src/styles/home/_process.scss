@@ -1,9 +1,9 @@
 .process {
-  padding-bottom: 75px;
+
 }
   .process__container {
     @include container;
-    padding-top: 60px;
+    padding-top: 144px;
   }
     .process__title {
       @include section-title;
@@ -117,6 +117,7 @@
         text-transform: uppercase;
         letter-spacing: 0.035em;
         padding: 12px 26px 12px 27px;
+        border-radius: 0;
       }
       .slider__next-btn--last {
         display: none;

@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import Slider from './common/Slider';
 import Grid from './common/Grid';
-import { NAV_BREAKPOINT, NAV_HEIGHT } from '../constants/Constants';
 
 const $window = $(window);
 
@@ -62,11 +61,7 @@ const openBio = function (id) {
   $leadershipSection.addClass('is-open');
   $biosSection.addClass('is-open');
 
-  let offset = $biosSection.offset().top + 2;
-
-  if ($window.width() >= NAV_BREAKPOINT) {
-    offset -= NAV_HEIGHT;
-  }
+  const offset = $biosSection.offset().top + 2;
 
   $body.animate({
     scrollTop: offset

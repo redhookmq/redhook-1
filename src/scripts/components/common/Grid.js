@@ -63,6 +63,8 @@ const Grid = function (element) {
     $ctaBtn.click((e) => {
       e.preventDefault();
 
+      $grid.addClass('is-showing-all');
+
       $isotope.arrange({ filter: '.is-hidden, .is-first' });
 
       $ctaBtn.hide();
