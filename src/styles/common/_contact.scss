@@ -27,6 +27,10 @@
           font-size: 20px;
           line-height: 1.6;
           font-family: $medium;
+          transition: color 0.2s ease;
+        }
+        .contact__link:hover {
+          color: $darkRed;
         }
           // icon
           // ----------------------------------------- //

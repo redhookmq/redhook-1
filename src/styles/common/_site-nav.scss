@@ -89,6 +89,7 @@
               transition: height 0.15s ease;
             }
 
+            &:hover:after,
             &.is-current:after {
               height: 5px;
             }

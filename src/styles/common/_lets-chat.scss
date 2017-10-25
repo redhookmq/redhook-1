@@ -21,12 +21,21 @@
   font-size: 24px;
   color: $darkText;
   font-family: $medium;
+  transition: all 0.2s ease;
 }
 .lets-chat__icon {
   fill: $red;
   width: 9px;
   height: 13px;
   margin-left: 4px;
+  transition: all 0.2s ease;
+}
+// hover
+.lets-chat__cta-link:hover {
+  color: $darkRed;
+  .lets-chat__icon {
+    transform: translateX(4px);
+  }
 }
 
 

@@ -96,7 +96,14 @@
         transform: translateX(-50%);
         width: 12px;
         height: 7px;
+        transition: all 0.3s ease;
       }
+    .scroll-down-btn:hover {
+      .scroll-down-btn__chevron {
+        bottom: -10px;
+        fill: $darkRed;
+      }
+    }
 
 @media (max-width: $mobileNav) {
   .hero {

@@ -66,8 +66,8 @@
           .internal-nav__link {
             position: relative;
             display: block;
-            height: 84px;
-            line-height: 84px;
+            height: 149px;
+            line-height: 149px;
             color: #fff;
             font-size: 18px;
             font-family: $bold;
@@ -87,12 +87,15 @@
               transition: height 0.15s ease;
             }
 
+            &:hover:after,
             &.is-current:after {
               height: 5px;
             }
           }
           .internal-nav.is-compact .internal-nav__link {
             font-size: 16px;
+            height: 84px;
+            line-height: 84px;
           }
             .internal-nav__icon {
               display: none;
