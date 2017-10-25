@@ -6,14 +6,13 @@ draft = false
 type = "page"
 +++
 
-{{< partial "case-studies/header" >}}
+{{< partial "case-studies/clic/header" >}}
 <div class="cs-main">
   <div class="cs-main__container">
-    {{< partial "case-studies/article" >}}
-    {{< partial "case-studies/aside" >}}
+    {{< partial "case-studies/clic/article" >}}
+    {{< partial "case-studies/clic/aside" >}}
   </div>
 </div>
-{{< partial "case-studies/touts" >}}
-{{< partial "case-studies/pull-quote" >}}
-{{< partial "common/lets-chat" >}}
-{{< partial "common/contact" >}}
+{{< partial "case-studies/clic/touts" >}}
+{{< partial "case-studies/clic/gallery" >}}
+{{< partial "case-studies/clic/pull-quote" >}}
