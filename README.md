@@ -49,13 +49,15 @@
 | `hugo new <content-type>/<content-name>.md` | Create new file in `content/<content-type>` directory |
 
 ## Project Structure
-
+- **bin** - Hugo binary files used by Netlify
 - **dist** - Files compiled by the Gulp/Hugo build pipeline
 - **src** - Files that will pass through the Gulp/Hugo build pipeline and be output in the `dist` directory
+	- **admin** - [Netlify CMS files](https://www.netlifycms.org/docs/)
 	- **data** - Custom data in YAML/JSON/TOML files to be used in templates, shortcodes, and javascript
 	- **docs** - PDFs and other static files that can be linked to. Copied over to the `dist` directory
   - **fonts** - Copied over to the `dist` directory
 	- **images** - Copied over to the `dist` directory
+		- **uploads** - Images uploaded by Netlify
 	- **markup** - Everything in here will be built with Hugo
 		- **archetypes** - Blueprints that define default [front mater](https://gohugo.io/content/front-matter/) and Markdown structure for different types of content. (e.g. Post, Tutorial, Product)
 		- **content** - Content pages and sections

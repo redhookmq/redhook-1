@@ -1,0 +1,48 @@
+# NETLIFY CMS CONFIG
+
+# Backend
+#----------------------------------------------------#
+backend:
+  name: github
+  repo: UncleSisu/redhook # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+# Editorial Workflow
+#----------------------------------------------------#
+# Enable to add an interface for drafting, reviewing, and approving
+# publish_mode: editorial_workflow
+
+# Media and Public Folders
+#----------------------------------------------------#
+# Folder where user uploaded files will be saved in the repo
+media_folder: "src/images/uploads"
+
+# Folder where upload files can be found on public site
+# Used in image src attributes and is relative to the file where it’s called
+# For this reason, we usually start the path at the site root, using the opening /.
+# If public_folder is not set, Netlify CMS will default to the same value as media_folder, adding an opening / if one is not included.
+public_folder: "/images/uploads"
+
+# Collections
+#----------------------------------------------------#
+# Define the structure for the different content types the CMS should be able to edit
+# name: Used in routes, e.g., /admin/collections/:slug/edit
+# label: Used in the UI, e.g., "New Post"
+# folder: The path to the folder where the documents are stored
+# create: Allow users to create new documents in this collection
+# fields: Fields shown in the content editor, then saved as front matter at the beginning of the document
+#   label: Field label in the editor UI
+#   name: Field name in the document front matter
+#   widget: Determines UI style and value data type
+#   default (optional) Sets a default value for the field
+#   tagname: (optional) Not sure what this does?
+collections:
+  - name: "case-studies"
+    label: "Case Study"
+    folder: "src/markup/content/case-studies"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}

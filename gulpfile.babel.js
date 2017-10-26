@@ -17,7 +17,9 @@ import webpackConfig from './webpack.conf';
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
 
-// location of static files to copy over
+// location of static files to copy over to 'dist' directory
+// was trying to grab all files (except certain folders), but I couldn't get it working right
+
 // const staticFiles = [
 //   'src/**/*.*',
 //   'src/**',
@@ -26,8 +28,11 @@ const hugoBin = 'hugo';
 //   '!src/scripts{,/**}',
 //   '!src/styles{,/**}'
 // ];
+
+// just grabbing specific files for now
 const staticFiles = [
   './src/favicon.png',
+  './src/admin/**/*.*',
   './src/data/**/*.*',
   './src/docs/**/*.*',
   './src/fonts/**/*.*',
