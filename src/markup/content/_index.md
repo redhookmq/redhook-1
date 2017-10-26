@@ -1,11 +1,10 @@
-+++
-title = "Home"
-date = 2017-07-07T15:27:47-07:00
-description = ""
-draft = false
-type = "page"
-+++
-
+---
+title: "Home"
+date: 2017-07-07T15:27:47-07:00
+description: ""
+draft: false
+type: "page"
+---
 
 <div class="home-page">
   {{< partial "home/hero" >}}
