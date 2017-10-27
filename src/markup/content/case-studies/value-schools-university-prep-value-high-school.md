@@ -8,9 +8,9 @@ featured_image: "images/case-studies/value-schools/featured.jpg"
 call_to_action: "Learn how Red Hook Capital helped Value School University Prep get through their entitlement phase!"
 grid_layout: "horizontal"
 services:
-  - "Location selection"
-  - "Managed development of facility"
-  - "Lease negotiation"
+  - service: "Location selection"
+  - service: "Managed development of facility"
+  - service: "Lease negotiation"
 touts:
   - image: "images/case-studies/value-schools/touts/the-only.jpg"
     title: "54%"
