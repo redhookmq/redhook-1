@@ -1,4 +1,4 @@
-.cs-header {
+.cs-intro {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -22,48 +22,48 @@
     bottom: 0;
   }
 }
-.cs-header__container {
+.cs-intro__container {
   @include container;
   position: relative;
   height: 798px;
 }
 // close link
 // ----------------------------------------- //
-.cs-header__close-link {
+.cs-intro__close-link {
   position: absolute;
   top: 201px;
   right: 56px;
   z-index: 30;
   transition: all 0.3s ease;
 }
-.cs-header__close-icon {
+.cs-intro__close-icon {
   width: 40px;
   height: 40px;
   fill: #fff;
   transition: all 0.3s ease;
 }
 // hover
-.cs-header__close-link:hover {
+.cs-intro__close-link:hover {
   transform: scale(1.1);
-  .cs-header__close-icon {
+  .cs-intro__close-icon {
     fill: $darkRed;
   }
 }
 // copy
 // ----------------------------------------- //
-.cs-header__copy {
+.cs-intro__copy {
   position: absolute;
   bottom: 89px;
   left: 56px;
   color: #fff;
   z-index: 20;
 }
-.cs-header__title {
+.cs-intro__title {
   font-size: 28px;
   font-family: $medium;
   margin-bottom: 18px;
 }
-.cs-header__sub-title {
+.cs-intro__sub-title {
   font-family: $bold;
   font-size: 50px;
   text-transform: uppercase;
@@ -71,15 +71,15 @@
   line-height: 1.13;
   max-width: 1000px;
 }
-.cs-header__img-wrapper {
+.cs-intro__img-wrapper {
 
 }
-.cs-header__img {
+.cs-intro__img {
 
 }
 
 @media (max-width: $mobileNav) {
-  .cs-header {
+  .cs-intro {
     margin-top: 48px;
     &:before {
       display: none;
@@ -88,41 +88,41 @@
       height: 430px;
     }
   }
-  .cs-header__container {
+  .cs-intro__container {
     @include container--sml;
     height: 380px;
   }
   // close link
   // ----------------------------------------- //
-  .cs-header__close-link {
+  .cs-intro__close-link {
     top: 25px;
     right: 21px;
   }
-  .cs-header__close-icon {
+  .cs-intro__close-icon {
     width: 20px;
     height: 20px;
   }
   // copy
   // ----------------------------------------- //
-  .cs-header__copy {
+  .cs-intro__copy {
     bottom: 18px;
     left: 19px;
     right: 19px;
   }
-  .cs-header__title {
+  .cs-intro__title {
     font-size: 14px;
     margin-bottom: 13px;
     line-height: 1.5;
   }
-  .cs-header__sub-title {
+  .cs-intro__sub-title {
     font-size: 21px;
     letter-spacing: 0.02em;
     line-height: 1.35;
   }
-  .cs-header__img-wrapper {
+  .cs-intro__img-wrapper {
 
   }
-  .cs-header__img {
+  .cs-intro__img {
 
   }
 }
