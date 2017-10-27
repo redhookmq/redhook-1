@@ -24,8 +24,7 @@ touts:
     title: "Diverse"
     details: "<strong>Racially and ethnically diverse --</strong> honestly represents West Adams (50% free and reduced lunch, 30% Latino, 35% African-American, 5% other)"
 quote:
-  text: "<strong>Redhook has been a great partner throughout this process.</strong> <br/>
-          They have been flexible and responsive to our particular situation as a school and creative in solving problems along the way. Their project management team is second to none and stayed on top of every detail of the project throughout the construction process. We would definitely do another project with them."
+  text: "<strong>Redhook has been a great partner throughout this process.</strong> <br/>They have been flexible and responsive to our particular situation as a school and creative in solving problems along the way. Their project management team is second to none and stayed on top of every detail of the project throughout the construction process. We would definitely do another project with them."
   source_name: "Valerie Braimah"
   source_title: "Executive Director, City Charter Schools"
 gallery:
