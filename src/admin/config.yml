@@ -74,3 +74,17 @@ collections:
         fields:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Description (optional)", name: "description", widget: "string"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/markup/content/_index.md"
+        label: "Home Page"
+        name: "index"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Details", name: "details", widget: "text"}
