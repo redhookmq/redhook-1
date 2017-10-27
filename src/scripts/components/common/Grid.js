@@ -40,8 +40,6 @@ const Grid = function (element) {
       const $detailContent = $el.find('.grid-item__detail-content');
 
       $el.on('mouseenter', () => {
-        $el.addClass('is-hovered');
-
         if ($window.width() > breakpoint) {
           $detailMask.animate({
             height: $detailContent.height(),

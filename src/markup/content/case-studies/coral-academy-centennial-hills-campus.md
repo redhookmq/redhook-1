@@ -5,7 +5,8 @@ description: "Spreading Success to a fourth campus in Nevada"
 draft: false
 type: "case-studies"
 featured_image: "images/case-studies/coral/featured.jpg"
-call_to_action: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
+call_to_action: "Learn how Red Hook Coral Academy get through their entitlement phase!"
+grid_layout: "horizontal"
 services:
   - "Location selection and purchase of property"
   - "Managed development of facility"

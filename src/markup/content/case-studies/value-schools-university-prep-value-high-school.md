@@ -5,7 +5,8 @@ description: "Redeveloping space to support a robust student body"
 draft: false
 type: "case-studies"
 featured_image: "images/case-studies/value-schools/featured.jpg"
-call_to_action: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
+call_to_action: "Learn how Red Hook Capital helped Value School University Prep get through their entitlement phase!"
+grid_layout: "horizontal"
 services:
   - "Location selection"
   - "Managed development of facility"
