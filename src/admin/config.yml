@@ -57,14 +57,20 @@ collections:
         name: "touts"
         widget: "list"
         fields:
+          - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "text"}
-          - {label: "Details", name: "details", widget: "markdown"}
+          - {label: "Details", name: "details", widget: "text"}
       - label: "Quote"
         name: "quote"
         widget: "object"
         fields:
           - {label: "Text", name: "text", widget: "markdown"}
-          - {label: "Source's Name", name: "source_name", widget: "text"}
-          - {label: "Source's Title", name: "source_title", widget: "text"}
+          - {label: "Source's Name", name: "source_name", widget: "string"}
+          - {label: "Source's Title", name: "source_title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description (optional)", name: "description", widget: "string"}
