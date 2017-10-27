@@ -28,7 +28,6 @@
 
 ## Get Started
 
-1. Install [Hugo](http://gohugo.io/overview/installing/)
 1. Install [Node v6.9+](https://nodejs.org/en/) globally if you don't have it already
 1. Install [Yarn](https://yarnpkg.com/) globally if you don't have it already
 1. Clone or download this repo
@@ -49,7 +48,7 @@
 | `hugo new <content-type>/<content-name>.md` | Create new file in `content/<content-type>` directory |
 
 ## Project Structure
-- **bin** - Hugo binary files used by Netlify
+- **bin** - Hugo binary files (so everyone uses the same version)
 - **dist** - Files compiled by the Gulp/Hugo build pipeline
 - **src** - Files that will pass through the Gulp/Hugo build pipeline and be output in the `dist` directory
 	- **admin** - [Netlify CMS files](https://www.netlifycms.org/docs/)

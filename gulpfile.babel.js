@@ -15,7 +15,8 @@ import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
 
 const browserSync = BrowserSync.create();
-const hugoBin = 'hugo';
+// use Hugo binary file for the current platform (linux, windows, darwin/mac)
+const hugoBin = `./bin/hugo.${process.platform === 'win32' ? 'exe' : process.platform}`;
 
 // location of static files to copy over to 'dist' directory
 // was trying to grab all files (except certain folders), but I couldn't get it working right
