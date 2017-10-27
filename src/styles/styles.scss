@@ -40,6 +40,10 @@ body {
   font-family: $regular;
 }
 
+#netlify-identity-widget {
+  z-index: 9999;
+}
+
 // Site container on mobile will slide left to reveal main nav on right
 @media (max-width: $mobileNav) {
   .site-container {
