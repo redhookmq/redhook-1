@@ -48,5 +48,34 @@ collections:
       - {label: "Call To Action", name: "call_to_action", widget: "string"}
       - {label: "Featured Image", name: "featured_image", widget: "image"}
       - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
-      - {label: "Services", name: "services", widget: "list", fields: [{label: "Service", name: "service", widget: "string"}]}
+      - label: "Services"
+        name: "services"
+        widget: "list"
+        fields: [{label: "Service", name: "service", widget: "string"}]}
+      - label: "Touts"
+        name: "touts"
+        widget: "list"
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Title"
+            name: "title"
+            widget: "text"
+          - label: "Details"
+            name: "details"
+            widget: "markdown"
+      - label: "Quote"
+        name: "quote"
+        widget: "object"
+        fields:
+          - label: "Text"
+            name: "text"
+            widget: "markdown"
+          - label: "Source's Name"
+            name: "source_name"
+            widget: "text"
+          - label: "Source's Title"
+            name: "source_title"
+            widget: "text"
       - {label: "Body", name: "body", widget: "markdown"}
