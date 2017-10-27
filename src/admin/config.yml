@@ -35,7 +35,7 @@ public_folder: "/images/uploads"
 #   name: Field name in the document front matter
 #   widget: Determines UI style and value data type
 #   default (optional) Sets a default value for the field
-#   tagname: (optional) Not sure what this does?
+#   tagname: (optional) The HTML tag for the content preview window
 collections:
   - name: "case-studies"
     label: "Case Study"
@@ -45,6 +45,8 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
       - {label: "Call To Action", name: "call_to_action", widget: "string"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
+      - {label: "Services", name: "services", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
