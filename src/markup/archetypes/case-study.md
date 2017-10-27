@@ -4,10 +4,8 @@ date: {{ .Date }}
 description: ""
 draft: false
 type: "case-study"
-intro:
-  image: "images/case-studies/clic/featured.jpg"
-  title: "Case study title"
-  sub_title: ""
+featured_image: "images/case-studies/clic/featured.jpg"
+call_to_action: ""
 services:
   - "Location selection and purchase of property"
 touts:

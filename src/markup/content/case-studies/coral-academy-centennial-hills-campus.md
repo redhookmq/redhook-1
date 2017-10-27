@@ -1,13 +1,11 @@
 ---
 title: "Coral Academy Centennial Hills Campus"
 date: 2017-07-07T15:27:47-07:00
-description: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
+description: "Spreading Success to a fourth campus in Nevada"
 draft: false
 type: "case-studies"
-intro:
-  image: "images/case-studies/coral/featured.jpg"
-  title: "Coral Academy Centennial Hills Campus"
-  sub_title: "Spreading Success to a fourth campus in Nevada"
+featured_image: "images/case-studies/coral/featured.jpg"
+call_to_action: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
 services:
   - "Location selection and purchase of property"
   - "Managed development of facility"

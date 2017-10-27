@@ -1,13 +1,11 @@
 ---
 title: "City Language Immersion and Charter School"
 date: 2017-07-07T15:27:47-07:00
-description: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
+description: "Solving the challenge of building new schools in fully developed neighborhoods"
 draft: false
 type: "case-studies"
-intro:
-  image: "images/case-studies/clic/featured.jpg"
-  title: "City Language Immersion and Charter School (CLIC)"
-  sub_title: "Solving the challenge of building new schools in fully developed neighborhoods"
+featured_image: "images/case-studies/clic/featured.jpg"
+call_to_action: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
 services:
   - "Location selection and purchase of property"
   - "Managed development of facility"
