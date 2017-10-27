@@ -3,7 +3,7 @@
 # Backend
 #----------------------------------------------------#
 backend:
-  name: github
+  name: git-gateway
   repo: UncleSisu/redhook # Path to your Github repository
   branch: master # Branch to update (master by default)
 
@@ -43,6 +43,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Call To Action", name: "call_to_action", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
