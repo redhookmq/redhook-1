@@ -4,16 +4,8 @@ date: 2017-07-07T15:27:47-07:00
 description: ""
 draft: false
 type: "page"
+hero:
+  image: "images/home/hero.jpg"
+  title: "Building <br>the Future"
+  details: "Red Hook Capital Partners is a real estate investment and development firm working with schools and organizations to create their permanent homes."
 ---
-
-<div class="home-page">
-  {{< partial "home/hero" >}}
-  {{< partial "home/services" >}}
-  {{< partial "home/process" >}}
-  {{< partial "home/case-studies" >}}
-  <div id="leadership" class="leadership-and-bios js-site-section">
-    {{< partial "home/leadership" >}}
-    {{< partial "home/bios" >}}
-  </div>
-  {{< partial "common/contact" >}}
-</div>
