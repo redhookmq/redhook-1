@@ -115,3 +115,23 @@ collections:
                   - {label: "Details", name: "details", widget: "text"}
                   - {label: "Large Image (1167 x 480)", name: "img_lrg", widget: "image"}
                   - {label: "Small Image (560 x 375)", name: "img_sml", widget: "image"}
+          - label: "Case Studies"
+            name: "case_studies"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Details", name: "details", widget: "text"}
+          - label: "Leadership"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Leader"
+                name: "leader"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Role", name: "role", widget: "string"}
+                  - {label: "Image (300 x 300)", name: "image", widget: "image"}
+                  - {label: "Eamil", name: "email", widget: "email"}
+                  - {label: "Bio", name: "bio", widget: "text"}

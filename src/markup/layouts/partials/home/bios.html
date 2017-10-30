@@ -1,66 +1,33 @@
 <section class="bios">
   <div class="bios__container">
     <ul class="bios__nav">
-      <li class="bios__nav-item">
-        <a href="#david-hyun" class="bios__nav-link">David Hyun</a>
-      </li>
-      <li class="bios__nav-item">
-        <a href="#craig-underwood" class="bios__nav-link">Craig Underwood</a>
-      </li>
-      <li class="bios__nav-item">
-        <a href="#marisa-quintanar" class="bios__nav-link">Marisa Quintanar</a>
-      </li>
+      {{ range .Params.leadership.leader }}
+        <li class="bios__nav-item">
+          <a href="#{{ urlize .name }}" class="bios__nav-link">{{ .name }}</a>
+        </li>
+      {{ end }}
     </ul>
     <button class="bios__close-btn">
       {{ partial "svgs/close.svg" (dict "class" "bios__close-icon")}}
     </button>
-    <div id="david-hyun" class="bios__bio bio">
-      <div class="bio__img-container">
-        <div class="bio__img-wrapper">
-          <img src="images/home/leadership/david.jpg" alt="" class="bio__img">
+    {{ range .Params.leadership.leader }}
+      <div id="{{ urlize .name }}" class="bios__bio bio">
+        <div class="bio__img-container">
+          {{ with .image }}
+          <div class="bio__img-wrapper">
+            <img src="{{ . }}" alt="" class="bio__img">
+          </div>
+          {{ end }}
+        </div>
+        <div class="bio__copy-container">
+          <h2 class="bio__title">{{ .name }}</h2>
+          <p class="bio__role">{{ .role }}</p>
+          <div class="bio__details">
+            {{ .bio | markdownify }}
+          </div>
+          <p class="bio__email"><a href="mailto:{{ .email }}" class="bio__email-link">{{ partial "svgs/email.svg" (dict "class" "bio__email-icon")}} {{ .email }}</a></p>
         </div>
       </div>
-      <div class="bio__copy-container">
-        <h2 class="bio__title">David Hyun</h2>
-        <p class="bio__role">Partner</p>
-        <div class="bio__details">
-          <p>David’s knowledge of charter school real estate development is unsurpassed. Since 2009, he has developed and financed over 25 charter schools — totaling over $300 million in investment — using conventional bank loans, new market tax credits, tax exempt bonds, and various state bonds. In two decades, he’s touched all aspects of the real estate cycle, from investment to construction and development to property management and corporate accounting.</p>
-          <p>Prior to joining Red Hook Capital, Mr. Hyun worked for Westfield, Trammell Crow Company, Playa Capital Company (Playa Vista Master Development), and most recently he served as the CFO/COO at Alliance College Ready Public Schools in Los Angeles. </p>
-        </div>
-        <p class="bio__email"><a href="mailto:dhyun@redhookcap.com" class="bio__email-link">{{ partial "svgs/email.svg" (dict "class" "bio__email-icon")}} dhyun@redhookcap.com</a></p>
-      </div>
-    </div>
-    <div id="craig-underwood" class="bios__bio bio">
-      <div class="bio__img-container">
-        <div class="bio__img-wrapper">
-          <img src="images/home/leadership/craig.jpg" alt="" class="bio__img">
-        </div>
-      </div>
-      <div class="bio__copy-container">
-        <h2 class="bio__title">Craig Underwood</h2>
-        <p class="bio__role">Partner</p>
-        <div class="bio__details">
-          <p>Craig Underwood’s two-decade journey in public finance led him to launch Red Hook Capital Partners in 2013. He has oversight over all financing and fiscal guidance that the firm offers, guiding clients through the treacherous waters of institutional real estate development.</p>
-          <p>Craig’s background includes serving as the chief executive of the BLX Group LLC (BLX), a leading public finance advisory and consulting firm for the past 20 years. Under his leadership, BLX has grown into a national firm with five offices across the country, representing hundreds of state/local governmental agencies and not-for-profits, including various charter school organizations. During his career, he has overseen debt, derivative and structured financial product transactions totalling over $40 billion in principal/notional amounts.</p>
-        </div>
-        <p class="bio__email"><a href="mailto:cunderwood@redhookcap.com" class="bio__email-link">{{ partial "svgs/email.svg" (dict "class" "bio__email-icon")}} cunderwood@redhookcap.com</a></p>
-      </div>
-    </div>
-    <div id="marisa-quintanar" class="bios__bio bio">
-      <div class="bio__img-container">
-        <div class="bio__img-wrapper">
-          <img src="images/home/leadership/marisa.jpg" alt="" class="bio__img">
-        </div>
-      </div>
-      <div class="bio__copy-container">
-        <h2 class="bio__title">Marisa Quinanar</h2>
-        <p class="bio__role">Vice President</p>
-        <div class="bio__details">
-          <p>David’s knowledge of charter school real estate development is unsurpassed. Since 2009, he has developed and financed over 25 charter schools — totaling over $300 million in investment — using conventional bank loans, new market tax credits, tax exempt bonds, and various state bonds. In two decades, he’s touched all aspects of the real estate cycle, from investment to construction and development to property management and corporate accounting.</p>
-          <p>Prior to joining Red Hook Capital, Mr. Hyun worked for Westfield, Trammell Crow Company, Playa Capital Company (Playa Vista Master Development), and most recently he served as the CFO/COO at Alliance College Ready Public Schools in Los Angeles. </p>
-        </div>
-        <p class="bio__email"><a href="mailto:mquintanar@redhookcap.com" class="bio__email-link">{{ partial "svgs/email.svg" (dict "class" "bio__email-icon")}} mquintanar@redhookcap.com</a></p>
-      </div>
-    </div>
+    {{ end }}
   </div>
 </section>

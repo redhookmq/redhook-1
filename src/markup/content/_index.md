@@ -45,4 +45,32 @@ process:
       details: "We want you to own, and we will work with you to buy your building when you’re in the best position to do so."
       img_lrg: "images/home/process/lrg/05.jpg"
       img_sml: "images/home/process/sml/05.jpg"
+case_studies:
+  title: "Case Studies"
+  details: "Just in the last three years, Red Hook Capital has taken on more than ten projects around the country. Find out how we have partnered with quality schools to help make their dreams come true."
+leadership:
+  title: "Leadership"
+  leader:
+    - name: "David Hyun"
+      role: "Partner"
+      image: null
+      email: "dhyun@redhookcap.com"
+      bio: |
+        David’s knowledge of charter school real estate development is unsurpassed. Since 2009, he has developed and financed over 25 charter schools — totaling over $300 million in investment — using conventional bank loans, new market tax credits, tax exempt bonds, and various state bonds. In two decades, he’s touched all aspects of the real estate cycle, from investment to construction and development to property management and corporate accounting.
+
+        Prior to joining Red Hook Capital, Mr. Hyun worked for Westfield, Trammell Crow Company, Playa Capital Company (Playa Vista Master Development), and most recently he served as the CFO/COO at Alliance College Ready Public Schools in Los Angeles.
+    - name: "Craig Underwood"
+      role: "Partner"
+      image: null
+      email: "cunderwood@redhookcap.com"
+      bio: |
+        Craig Underwood’s two-decade journey in public finance led him to launch Red Hook Capital Partners in 2013. He has oversight over all financing and fiscal guidance that the firm offers, guiding clients through the treacherous waters of institutional real estate development.
+
+        Craig’s background includes serving as the chief executive of the BLX Group LLC (BLX), a leading public finance advisory and consulting firm for the past 20 years. Under his leadership, BLX has grown into a national firm with five offices across the country, representing hundreds of state/local governmental agencies and not-for-profits, including various charter school organizations. During his career, he has overseen debt, derivative and structured financial product transactions totalling over $40 billion in principal/notional amounts.
+    - name: "Marisa Quinanar"
+      role: "Vice President"
+      image: null
+      email: "cunderwood@redhookcap.com"
+      bio: |
+        Marisa brings a deep understanding of school and community needs to Red Hook. She is the former business development manager for EdTec-Southern California, a back office operations provider that works with public schools around the country. She also served as the Regional Director of Policy and Advocacy for the California Charter Schools Association (CCSA). In this capacity, she represented over 250 schools throughout the greater LA area as they navigated the Prop 39 process. Marisa previously worked for the East LA Community Corporation (ELACC), a non-profit housing developer that provides wraparound services for low-income Boyle Heights residents. She started her career as a high school English teacher at El Monte High School.
 ---
