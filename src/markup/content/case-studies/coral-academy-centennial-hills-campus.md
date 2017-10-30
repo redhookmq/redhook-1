@@ -4,7 +4,7 @@ date: 2017-07-07T15:27:47-07:00
 description: "Spreading Success to a fourth campus in Nevada"
 draft: false
 type: "case-studies"
-featured_image: "images/case-studies/coral/featured.jpg"
+featured_image: "images/uploads/case-studies/coral/featured.jpg"
 call_to_action: "Learn how Red Hook Coral Academy get through their entitlement phase!"
 grid_layout: "horizontal"
 services:
@@ -13,13 +13,13 @@ services:
   - service: "Leased building to Coral Academy"
   - service: "Coral Academy in process of building purchase"
 touts:
-  - image: "images/case-studies/coral/touts/the-only.jpg"
+  - image: "images/uploads/case-studies/coral/touts/the-only.jpg"
     title: "95%"
     details: "<strong>95%</strong> graduation rate"
-  - image: "images/case-studies/coral/touts/outperform.jpg"
+  - image: "images/uploads/case-studies/coral/touts/outperform.jpg"
     title: "Waitlist"
     details: "<strong>Waitlist</strong> of over 2,700"
-  - image: "images/case-studies/coral/touts/diverse.jpg"
+  - image: "images/uploads/case-studies/coral/touts/diverse.jpg"
     title: "5-star rated"
     details: "<strong>5-star rated</strong> by NVDOE"
 quote:
@@ -27,31 +27,31 @@ quote:
   source_name: "Ercan Aydogdu"
   source_title: "Executive Director, Coral Academy of Science Las Vegas"
 gallery:
-  - image: "images/case-studies/coral/gallery/1.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/1.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/2.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/2.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/3.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/3.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/4.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/4.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/5.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/5.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/6.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/6.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/7.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/7.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/8.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/8.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/9.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/9.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/10.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/10.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/11.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/11.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/12.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/12.jpg"
     description: null
-  - image: "images/case-studies/coral/gallery/13.jpg"
+  - image: "images/uploads/case-studies/coral/gallery/13.jpg"
     description: null
 ---
 

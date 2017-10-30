@@ -4,7 +4,7 @@ date: 2017-07-07T15:27:47-07:00
 description: "Redeveloping space to support a robust student body"
 draft: false
 type: "case-studies"
-featured_image: "images/case-studies/value-schools/featured.jpg"
+featured_image: "images/uploads/case-studies/value-schools/featured.jpg"
 call_to_action: "Learn how Red Hook Capital helped Value School University Prep get through their entitlement phase!"
 grid_layout: "horizontal"
 services:
@@ -12,13 +12,13 @@ services:
   - service: "Managed development of facility"
   - service: "Lease negotiation"
 touts:
-  - image: "images/case-studies/value-schools/touts/the-only.jpg"
+  - image: "images/uploads/case-studies/value-schools/touts/the-only.jpg"
     title: "54%"
     details: "T<strong>54%</strong> more students accepted to the UC system"
-  - image: "images/case-studies/value-schools/touts/outperform.jpg"
+  - image: "images/uploads/case-studies/value-schools/touts/outperform.jpg"
     title: "97%"
     details: "<strong>97%</strong> of seniors received their diplomas"
-  - image: "images/case-studies/value-schools/touts/diverse.jpg"
+  - image: "images/uploads/case-studies/value-schools/touts/diverse.jpg"
     title: "98%"
     details: "<strong>98%</strong> of graduates are attending 2- or 4-year universities and colleges"
 quote:
@@ -26,65 +26,65 @@ quote:
   source_name: "David Doyle"
   source_title: "President and CEO, Value Schools"
 gallery:
-  - image: "images/case-studies/value-schools/gallery/1.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/1.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/2.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/2.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/3.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/3.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/4.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/4.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/5.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/5.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/6.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/6.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/7.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/7.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/8.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/8.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/9.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/9.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/10.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/10.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/11.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/11.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/12.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/12.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/13.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/13.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/14.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/14.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/15.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/15.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/16.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/16.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/17.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/17.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/18.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/18.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/19.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/19.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/20.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/20.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/21.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/21.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/22.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/22.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/23.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/23.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/24.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/24.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/25.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/25.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/26.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/26.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/27.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/27.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/28.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/28.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/29.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/29.jpg"
     description: null
-  - image: "images/case-studies/value-schools/gallery/30.jpg"
+  - image: "images/uploads/case-studies/value-schools/gallery/30.jpg"
     description: null
 ---
 

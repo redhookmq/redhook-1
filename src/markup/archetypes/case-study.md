@@ -4,18 +4,18 @@ date: {{ .Date }}
 description: ""
 draft: false
 type: "case-study"
-featured_image: "images/case-studies/clic/featured.jpg"
+featured_image: "images/uploads/case-studies/clic/featured.jpg"
 call_to_action: ""
 services:
   - "Location selection and purchase of property"
 touts:
-  - image: "images/case-studies/clic/touts/the-only.jpg"
+  - image: "images/uploads/case-studies/clic/touts/the-only.jpg"
     title: ""
     details: ""
-  - image: "images/case-studies/clic/touts/outperform.jpg"
+  - image: "images/uploads/case-studies/clic/touts/outperform.jpg"
     title: ""
     details: ""
-  - image: "images/case-studies/clic/touts/diverse.jpg"
+  - image: "images/uploads/case-studies/clic/touts/diverse.jpg"
     title: ""
     details: ""
 quote:
@@ -23,6 +23,6 @@ quote:
   source_name: ""
   source_title: ""
 gallery:
-  - image: "images/case-studies/clic/gallery/1.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/1.jpg"
     description: null
 ---

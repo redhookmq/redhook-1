@@ -68,7 +68,8 @@ collections:
             name: "hero"
             widget: "object"
             fields:
-              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Desktop Image (1366 x 800)", name: "image_lrg", widget: "image"}
+              - {label: "Mobile Image (1210 x 758)", name: "image_sml", widget: "image"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Details", name: "details", widget: "text"}
           - label: "Services"
@@ -127,7 +128,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Call To Action", name: "call_to_action", widget: "string"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Featured Image (1366 x 813)", name: "featured_image", widget: "image"}
       - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
       - label: "Services"
         name: "services"
@@ -139,7 +140,7 @@ collections:
         widget: "list"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image (640 x 337)", name: "image", widget: "image"}
           - {label: "Details", name: "details", widget: "text"}
       - label: "Quote"
         name: "quote"
@@ -153,5 +154,5 @@ collections:
         name: "gallery"
         widget: "list"
         fields:
-          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image (1438 x 899)", name: "image", widget: "image"}
           - {label: "Description (optional)", name: "description", widget: "string"}

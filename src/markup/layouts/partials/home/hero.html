@@ -1,8 +1,4 @@
-<section
-  id="hero"
-  class="hero js-site-section"
-  style="background-image:url({{ .Params.hero.image | relURL }});"
->
+<section id="hero" class="hero js-site-section">
   <div class="hero__container">
     <a class="hero__logo" href="index.html">
       {{ partial "svgs/logo.svg" (dict "class" "hero__logo-icon")}}
@@ -17,3 +13,13 @@
     </button>
   </div>
 </section>
+<style>
+  .hero {
+    background-image: url({{ .Params.hero.image_lrg | relURL }});
+  }
+  @media (max-width: 870px) {
+    .hero {
+      background-image: url({{ .Params.hero.image_sml | relURL }});
+    }
+  }
+</style>

@@ -4,7 +4,7 @@ date: 2017-07-07T15:27:47-07:00
 description: "Solving the challenge of building new schools in fully developed neighborhoods"
 draft: false
 type: "case-studies"
-featured_image: "images/case-studies/clic/featured.jpg"
+featured_image: "images/uploads/case-studies/clic/featured.jpg"
 call_to_action: "Learn how Red Hook Capital helped City Language Charter School (CLIC) get through their entitlement phase!"
 grid_layout: "vertical"
 services:
@@ -13,13 +13,13 @@ services:
   - service: "Leased building to CLIC"
   - service: "Sale of building to CLIC"
 touts:
-  - image: "images/case-studies/clic/touts/the-only.jpg"
+  - image: "images/uploads/case-studies/clic/touts/the-only.jpg"
     title: "The Only"
     details: "The <strong>Only</strong> Spanish Dual Immersion School In Los Angeles"
-  - image: "images/case-studies/clic/touts/outperform.jpg"
+  - image: "images/uploads/case-studies/clic/touts/outperform.jpg"
     title: "Outperform"
     details: "Academically <strong>outperforms</strong> similar demographically-based schools throughout California (according to State Testing)"
-  - image: "images/case-studies/clic/touts/diverse.jpg"
+  - image: "images/uploads/case-studies/clic/touts/diverse.jpg"
     title: "Diverse"
     details: "<strong>Racially and ethnically diverse --</strong> honestly represents West Adams (50% free and reduced lunch, 30% Latino, 35% African-American, 5% other)"
 quote:
@@ -27,71 +27,71 @@ quote:
   source_name: "Valerie Braimah"
   source_title: "Executive Director, City Charter Schools"
 gallery:
-  - image: "images/case-studies/clic/gallery/1.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/1.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/2.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/2.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/3.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/3.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/4.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/4.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/5.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/5.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/6.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/6.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/7.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/7.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/8.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/8.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/9.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/9.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/10.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/10.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/11.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/11.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/12.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/12.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/13.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/13.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/14.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/14.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/15.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/15.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/16.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/16.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/17.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/17.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/18.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/18.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/19.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/19.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/20.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/20.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/21.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/21.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/22.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/22.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/23.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/23.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/24.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/24.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/25.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/25.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/26.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/26.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/27.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/27.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/28.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/28.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/29.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/29.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/30.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/30.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/31.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/31.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/32.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/32.jpg"
     description: null
-  - image: "images/case-studies/clic/gallery/33.jpg"
+  - image: "images/uploads/case-studies/clic/gallery/33.jpg"
     description: null
 ---
 
