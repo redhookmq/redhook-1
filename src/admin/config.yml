@@ -88,3 +88,16 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Details", name: "details", widget: "text"}
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Details", name: "details", widget: "text"}
+              - label: "Service"
+                name: "services"
+                widget: "list"
+                fields:
+                  - {label: "Icon", name: "icon", widget: "select", options: ["handshake", "shovels", "building"]}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Details", name: "details", widget: "text"}
