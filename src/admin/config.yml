@@ -133,5 +133,5 @@ collections:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Role", name: "role", widget: "string"}
                   - {label: "Image (300 x 300)", name: "image", widget: "image"}
-                  - {label: "Eamil", name: "email", widget: "email"}
+                  - {label: "Eamil", name: "email", widget: "string"}
                   - {label: "Bio", name: "bio", widget: "text"}
