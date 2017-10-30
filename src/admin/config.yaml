@@ -37,46 +37,29 @@ public_folder: "/images/uploads"
 #   default (optional) Sets a default value for the field
 #   tagname: (optional) The HTML tag for the content preview window
 collections:
-  - name: "case-studies"
-    label: "Case Study"
-    folder: "src/markup/content/case-studies"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Call To Action", name: "call_to_action", widget: "string"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
-      - label: "Services"
-        name: "services"
-        widget: "list"
-        fields:
-          - {label: "Service", name: "service", widget: "string"}
-      - label: "Touts"
-        name: "touts"
-        widget: "list"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Details", name: "details", widget: "text"}
-      - label: "Quote"
-        name: "quote"
-        widget: "object"
-        fields:
-          - {label: "Text", name: "text", widget: "markdown"}
-          - {label: "Source's Name", name: "source_name", widget: "string"}
-          - {label: "Source's Title", name: "source_title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Gallery"
-        name: "gallery"
-        widget: "list"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Description (optional)", name: "description", widget: "string"}
-  - name: "pages"
-    label: "Pages"
+  - label: "Pages"
+    name: "pages"
     files:
+      - file: "config.yaml"
+        label: "Site-wide"
+        name: "config"
+        fields:
+          - {label: "Site Title", name: "title", widget: "string"}
+          - label: "Parameters"
+            name: "params"
+            widget: "object"
+            fields:
+              - {label: "Copyright", name: "copyright", widget: "string"}
+              - label: Contact
+                name: contact
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Call to Action", name: "call_to_action", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Email", name: "email", widget: "string"}
+                  - {label: "Address", name: "address", widget: "text"}
+                  - {label: "Directions Link", name: "directions_link", widget: "string"}
       - file: "src/markup/content/_index.md"
         label: "Home Page"
         name: "index"
@@ -135,3 +118,40 @@ collections:
                   - {label: "Image (300 x 300)", name: "image", widget: "image"}
                   - {label: "Eamil", name: "email", widget: "string"}
                   - {label: "Bio", name: "bio", widget: "text"}
+  - name: "case-studies"
+    label: "Case Study"
+    folder: "src/markup/content/case-studies"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Call To Action", name: "call_to_action", widget: "string"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
+      - label: "Services"
+        name: "services"
+        widget: "list"
+        fields:
+          - {label: "Service", name: "service", widget: "string"}
+      - label: "Touts"
+        name: "touts"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Details", name: "details", widget: "text"}
+      - label: "Quote"
+        name: "quote"
+        widget: "object"
+        fields:
+          - {label: "Text", name: "text", widget: "markdown"}
+          - {label: "Source's Name", name: "source_name", widget: "string"}
+          - {label: "Source's Title", name: "source_title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description (optional)", name: "description", widget: "string"}
