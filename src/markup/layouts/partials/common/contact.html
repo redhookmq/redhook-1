@@ -3,32 +3,29 @@
     <div class="contact__img"></div>
     <div class="contact__block">
       <p class="contact__detail">
-        <a href="tel:424-217-1341" class="contact__link">
+        <a href="tel:{{ urlize .Site.Params.contact.phone }}" class="contact__link">
           <span class="contact__icon-wrapper">
             {{ partial "svgs/phone.svg" (dict "class" "contact__icon contact__icon--phone")}}
           </span>
-          <span class="contact__text">(424) 217-1341</span>
+          <span class="contact__text">{{ .Site.Params.contact.phone }}</span>
         </a>
       </p>
       <p class="contact__detail">
-        <a href="mailto:info@redhookcap.com" class="contact__link">
+        <a href="mailto:{{ .Site.Params.contact.email }}" class="contact__link">
           <span class="contact__icon-wrapper">
             {{ partial "svgs/email.svg" (dict "class" "contact__icon contact__icon--email")}}
           </span>
-          <span class="contact__text">info@redhookcap.com</span>
+          <span class="contact__text">{{ .Site.Params.contact.email }}</span>
         </a>
       </p>
       <p class="contact__detail">
-        <a href="https://goo.gl/maps/q8R8pspZV5D2" targer="_blank" class="contact__link">
+        <a href="{{ .Site.Params.contact.directions_link }}" targer="_blank" class="contact__link">
           <span class="contact__icon-wrapper">
             {{ partial "svgs/map-marker.svg" (dict "class" "contact__icon contact__icon--map-marker")}}
           </span>
           <span class="contact__text">
-            Red Hook Capital Partners <br/>
-            2120 E. Grand Ave <br/>
-            Suite #135 <br/>
-            El Segundo, CA 90245 <br/>
-            <strong>Get Directions {{ partial "svgs/chevron-right.svg" (dict "class" "contact__arrow")}}</strong>
+            {{ .Site.Params.contact.address | markdownify }}
+            <br><strong>Get Directions {{ partial "svgs/chevron-right.svg" (dict "class" "contact__arrow")}}</strong>
           </span>
         </a>
       </p>
