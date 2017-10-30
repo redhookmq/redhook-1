@@ -41,9 +41,9 @@ const staticFiles = [
 ];
 
 // default hugo arguments used in buildSite method
-// use config.toml in root directory
+// use config.yaml in root directory
 // use verbose output
-const defaultArgs = ['--config', 'config.toml', '-v'];
+const defaultArgs = ['--config', 'config.yaml', '-v'];
 
 // HUGO
 // ------------------------------------------------------- //
