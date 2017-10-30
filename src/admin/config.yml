@@ -101,3 +101,17 @@ collections:
                   - {label: "Icon", name: "icon", widget: "select", options: ["handshake", "shovels", "building"]}
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Details", name: "details", widget: "text"}
+          - label: "Process"
+            name: "process"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Details", name: "details", widget: "text"}
+              - label: "Step"
+                name: "step"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Details", name: "details", widget: "text"}
+                  - {label: "Large Image (1167 x 480)", name: "img_lrg", widget: "image"}
+                  - {label: "Small Image (560 x 375)", name: "img_sml", widget: "image"}
