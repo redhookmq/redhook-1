@@ -116,7 +116,7 @@ leadership:
         non-profit housing developer that provides wraparound services for
         low-income Boyle Heights residents. She started her career as a high
         school English teacher at El Monte High School.
-      email: cunderwood@redhookcap.com
+      email: mquintanar@redhookcap.com
       name: Marisa Quinanar
       role: Vice President
   title: Leadership
