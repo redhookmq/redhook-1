@@ -109,7 +109,8 @@
 .bio__email-link {
   color: $darkText;
   font-family: $bold;
-  font-size: 12px;
+  font-size: 15px;
+  color: $red;
   transition: color 0.2s ease;
   &:hover {
     color: $darkRed;

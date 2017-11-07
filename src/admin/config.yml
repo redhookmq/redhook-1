@@ -64,7 +64,7 @@ collections:
         label: "Home Page"
         name: "index"
         fields:
-          - label: "Hero"
+          - label: "Intro Marquee (The big image and copy at the top of the page)"
             name: "hero"
             widget: "object"
             fields:
@@ -85,7 +85,7 @@ collections:
                   - {label: "Icon", name: "icon", widget: "select", options: ["handshake", "shovels", "building"]}
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Details", name: "details", widget: "text"}
-          - label: "Process"
+          - label: "Process (slideshow)"
             name: "process"
             widget: "object"
             fields:
@@ -124,12 +124,12 @@ collections:
     folder: "src/markup/content/case-studies"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Case Study Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date (Most recent show up on top on the home page)", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Call To Action", name: "call_to_action", widget: "string"}
-      - {label: "Featured Image (1366 x 813)", name: "featured_image", widget: "image"}
-      - {label: "Grid Layout", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
+      - {label: "Call To Action (Used on home page when hovering)", name: "call_to_action", widget: "string"}
+      - {label: "Featured Image (1366 x 813) (Used on home page and top of Case Study)", name: "featured_image", widget: "image"}
+      - {label: "Grid Layout (How the Case Study should look in the home page grid)", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
       - label: "Services"
         name: "services"
         widget: "list"
@@ -149,7 +149,7 @@ collections:
           - {label: "Text", name: "text", widget: "markdown"}
           - {label: "Source's Name", name: "source_name", widget: "string"}
           - {label: "Source's Title", name: "source_title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body (The main content of the Case Study)", name: "body", widget: "markdown"}
       - label: "Gallery"
         name: "gallery"
         widget: "list"
