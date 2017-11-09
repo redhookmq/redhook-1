@@ -6,3 +6,7 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+
+[redirects] = [
+  {from = "/our-team", to = "/index.html#leadership"}
+]
