@@ -104,6 +104,20 @@ leadership:
       email: cunderwood@redhookcap.com
       name: Craig Underwood
       role: Partner
+    - bio: >-
+        Enrique has more than 20 years of planning, design and management
+        experience in the public, private, and non-profit sectors. He has
+        developed numerous charter school projects throughout Southern
+        California for Alliance College-Ready Public Schools and other CMOs.
+
+
+        Enrique is a LEED AP, NCARB Certified, licensed architect in the State
+        of California, and a member of the Design Review Board for the City of
+        Whittier. He previous worked with Keller CMS, Warmington Homes
+        California and ASC Property Management.
+      email: ediaz@redhookcap.com
+      name: Enrique Diaz
+      role: Vice President of Real Estate
     - bio: >
         Marisa brings a deep understanding of school and community needs to Red
         Hook. She is the former business development manager for EdTec-Southern
