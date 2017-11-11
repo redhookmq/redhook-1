@@ -133,7 +133,7 @@ leadership:
         low-income Boyle Heights residents. She started her career as a high
         school English teacher at El Monte High School.
       email: mquintanar@redhookcap.com
-      name: Marisa Quinanar
+      name: Marisa Quintanar
       role: Vice President
   title: Leadership
 ---
