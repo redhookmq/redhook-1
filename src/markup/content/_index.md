@@ -125,9 +125,11 @@ leadership:
         schools around the country. She also served as the Regional Director of
         Policy and Advocacy for the California Charter Schools Association
         (CCSA). In this capacity, she represented over 250 schools throughout
-        the greater LA area as they navigated the Prop 39 process. Marisa
-        previously worked for the East LA Community Corporation (ELACC), a
-        non-profit housing developer that provides wraparound services for
+        the greater LA area as they navigated the Prop 39 process. 
+
+
+        Marisa previously worked for the East LA Community Corporation (ELACC),
+        a non-profit housing developer that provides wraparound services for
         low-income Boyle Heights residents. She started her career as a high
         school English teacher at El Monte High School.
       email: mquintanar@redhookcap.com
