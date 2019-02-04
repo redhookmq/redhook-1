@@ -113,7 +113,7 @@ leadership:
 
         Enrique is a LEED AP, NCARB Certified, licensed architect in the State
         of California, and a member of the Design Review Board for the City of
-        Whittier. He previous worked with Keller CMS, Warmington Homes
+        Whittier. He previously worked with Keller CMS, Warmington Homes
         California and ASC Property Management.
       email: ediaz@redhookcap.com
       name: Enrique Diaz
