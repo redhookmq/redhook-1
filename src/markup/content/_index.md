@@ -118,24 +118,6 @@ leadership:
       email: ediaz@redhookcap.com
       name: Enrique Diaz
       role: Vice President of Real Estate
-    - bio: >
-        Marisa brings a deep understanding of school and community needs to Red
-        Hook. She is the former business development manager for EdTec-Southern
-        California, a back office operations provider that works with public
-        schools around the country. She also served as the Regional Director of
-        Policy and Advocacy for the California Charter Schools Association
-        (CCSA). In this capacity, she represented over 250 schools throughout
-        the greater LA area and helped over 80 schools as they navigated the
-        Prop 39 process.
-
-
-        Marisa previously worked for the East LA Community Corporation (ELACC),
-        a non-profit housing developer that provides wraparound services for
-        low-income Boyle Heights residents. She started her career as a high
-        school English teacher at El Monte High School.
-      email: mquintanar@redhookcap.com
-      name: Marisa Quintanar
-      role: Vice President
   title: Leadership
 ---
 
