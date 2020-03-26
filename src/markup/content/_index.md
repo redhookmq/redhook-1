@@ -119,5 +119,23 @@ leadership:
       name: Enrique Diaz
       role: Vice President of Real Estate
   title: Leadership
+careers:
+  date: >-
+      March 10, 2020
+  jobtitle: >-
+      Architectural Manager (Project Manager)
+  jobdescription: >-
+      Manage the design, planning and construction of school development projects and capital 
+      improvements, including project specifications.  Coordinate permitting and compliance 
+      activities with government and other regulatory agencies. Manage and coordinate engineers, 
+      architects, consultants and contractors through project stages including design, planning, plan 
+      check, construction, completion. Supervise and coordinate work of contractors. Direct, review 
+      and approve project design changes.  Master’s in Architecture. Occasional same day travel to 
+      project site. Jobsite El Segundo. Send resume to Red Hook Capital Partners.
+  jobemail: >-
+      jobs@redhookcap.com
+  imageemail: >-
+      /images/email-icon.png
+  title: Careers
 ---
 

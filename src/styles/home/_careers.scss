@@ -1,0 +1,104 @@
+.careers {
+
+
+	&__container {
+		@include container;
+		padding: 140px 0;
+	}
+
+ 	&__title {
+	  @include section-title;
+	}
+
+	&__jobs {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-color: $white;
+		margin-top: 55px;
+		padding: 70px 60px;
+
+		.date {
+			color: $darkGray;
+			font-family: $bold;
+			font-size: 12px;
+			margin-right: 4.662%;
+			margin-top: 7px;
+		}
+
+		.description {
+			max-width: 855px;
+		}
+
+		.job-title {
+			font-family: $bold;
+			font-size: 24px;
+			line-height: 1;
+			margin-bottom: 30px;
+		}
+
+		.about-job {
+			font-size: 20px;
+			line-height: 32px;
+			margin-bottom: 45px;
+		}
+
+		.contact-job {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			font-family: $bold;
+			font-size: 16px;
+
+			a {
+				color: $red;
+			}
+
+			img {
+				margin-right: 15px;
+			}
+		}
+	}
+
+	// make columns a vertical column
+	// ----------------------------------------- //
+	@media (max-width: 870px) {
+
+	}
+
+	// mobile styles
+	// ----------------------------------------- //
+	@media (max-width: $mobileNav) {
+
+	    &__container {
+	    	@include container--sml;
+	    	padding-top: 44px;
+	    }
+	    // Intro
+	    // ----------------------------------------- //
+	    &__title {
+		    @include section-title--sml;
+		    margin-bottom: 45px;
+	    }
+
+	    &__jobs {
+	    	flex-flow: column;
+
+	    	.date {
+	    		margin-bottom: 12px;
+	    	}
+
+	    	.job-title {
+	    		font-size: 22px;
+	    		margin-bottom: 20px;
+	    	}
+
+	    	.about-job {
+	    		font-size: 18px;
+	    		line-height: 28px;
+	    	}
+	    }
+
+	}
+
+}

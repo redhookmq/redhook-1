@@ -1,0 +1,21 @@
+<section id="careers">
+  <div class="careers__container">
+    <h1 class="careers__title">{{ .Params.careers.title }}</h1>
+    <div class="careers__jobs">
+      <div class="date">
+        {{ .Params.careers.date }}
+      </div>
+      <div class="description">
+
+        <h3 class="job-title">{{ .Params.careers.jobtitle }}</h3>
+        <p class="about-job">
+          {{ .Params.careers.jobdescription }}
+        </p>
+        <p class="contact-job">
+          <img src="{{ .Params.careers.imageemail }}" alt="email icon"/><a href="mailto:{{ .Params.careers.jobemail }}">{{ .Params.careers.jobemail }}</a>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</section>
