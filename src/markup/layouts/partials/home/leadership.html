@@ -1,6 +1,13 @@
-<section class="leadership">
+<section id="leadership" class="leadership js-site-section">
   <div class="leadership__container">
-    <h1 class="leadership__title">{{ .Params.leadership.title }}</h1>
+    <div class="col-left">
+      <h1 class="leadership__title">{{ .Params.leadership.title }}</h1>
+      <p class="leadership__heading">{{ .Params.leadership.heading | safeHTML }}</p>
+      <p class="leadership__details">{{ .Params.leadership.details }}</p>
+      <button class="leadership__all-button default">
+        <span class="leadership-all">All Team Bios</span>
+      </button>
+    </div>
     <div class="leadership__leaders">
       {{ range .Params.leadership.leader }}
         <div class="leadership__leader leader">
@@ -15,7 +22,7 @@
             {{ end }}
             <h2 class="leader__title">{{ .name }}</h2>
             <p class="leader__role">{{ .role }}</p>
-            <p class="leader__cta">View Bio {{ partial "svgs/chevron-right.svg" (dict "class" "leader__cta-arrow")}}</p>
+            <!-- <p class="leader__cta">View Bio {{ partial "svgs/chevron-right.svg" (dict "class" "leader__cta-arrow")}}</p> -->
           </a>
         </div>
       {{ end }}

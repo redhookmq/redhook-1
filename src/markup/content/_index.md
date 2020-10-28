@@ -1,26 +1,33 @@
 ---
 hero:
   details: >-
-    Red Hook Capital Partners is a real estate investment and development firm
-    working with schools and organizations to create their permanent homes.
-  image_lrg: /images/uploads/hero-lrg.jpg
+    Red Hook Capital Partners helps charter schools design, build, and own their perfect campus.
+  image_lrg: /images/uploads/hero-rhc-v2.jpg
   image_sml: /images/uploads/hero-sml.jpg
-  title: Building <br>the Future
+  title: Building Better Schools Together
 services:
   details: >-
-    Red Hook can usher you from project start to the first day of school, or
-    provide a more targeted set of services.
+    Red Hook Capital Partners serves schools that make a powerful impact in their communities. We partner with high-quality schools that teach underserved students, ELL and students of color, as well as ones that provide free and reduced fee lunches or offer unique aspects to education. 
+
+
+    Red Hook is a special combination of finance and construction. Growing from co-founders Craig Underwood’s financial savvy and David Hyun’s deep knowledge of real estate development, Red Hook supports charter school leaders as they navigate bureaucratic red tape, construction complexity and tight timeframes. We’re (literally) invested in seeing you succeed. 
+  heading: With you Every Step of the Way
   services:
     - details: 'We buy the land, build the space and help you own it'
       icon: handshake
-      title: Turnkey
+      title: Lease to Own
     - details: We build the optimal facility for your needs
       icon: shovels
       title: Development
     - details: We provide financing so you can build
       icon: building
       title: Financing
-  title: Services
+  video_image_lrg: /images/uploads/home/services/video-overlay.jpg
+  video_image_sml: /images/uploads/home/services/video-overlay.jpg
+  video_instruct: Watch the video
+  overflow_image_lrg: /images/uploads/home/services/services-science.jpg
+  overflow_image_sml: /images/uploads/home/services/services-science.jpg
+  title: Our Services
 process:
   details: >-
     We know that every school faces a unique set of challenges. We help chart
@@ -60,13 +67,27 @@ process:
       img_lrg: images/uploads/home/process/lrg/05.jpg
       img_sml: images/uploads/home/process/sml/05.jpg
       title: Purchase
-  title: Process
+  heading: From Vision<br>to Reality
+  title: Our Process
 case_studies:
   details: >-
     Just in the last three years, Red Hook Capital has taken on more than ten
     projects around the country. Find out how we have partnered with quality
     schools to help make their dreams come true.
+  heading: Our Recent Projects
   title: Case Studies
+testimonials:
+  testimonial:
+    - quote: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat.
+      by: Coral Academy
+  image_lrg: /images/uploads/home/testimonials/testimonials.jpg
+  image_sml: /images/uploads/hero-sml.jpg
+  heading: What They Say
+  title: Testimonials
 leadership:
   leader:
     - bio: >
@@ -83,6 +104,7 @@ leadership:
         Trammell Crow Company, Playa Capital Company (Playa Vista Master
         Development), and most recently he served as the CFO/COO at Alliance
         College Ready Public Schools in Los Angeles.
+      image: images/uploads/home/leadership/david.jpg
       email: dhyun@redhookcap.com
       name: David Hyun
       role: Partner
@@ -101,41 +123,79 @@ leadership:
         including various charter school organizations. During his career, he
         has overseen debt, derivative and structured financial product
         transactions totalling over $40 billion in principal/notional amounts.
+      image: images/uploads/home/leadership/craig.jpg
       email: cunderwood@redhookcap.com
       name: Craig Underwood
       role: Partner
-    - bio: >-
-        Enrique has more than 20 years of planning, design and management
-        experience in the public, private, and non-profit sectors. He has
-        developed numerous charter school projects throughout Southern
-        California for Alliance College-Ready Public Schools and other CMOs.
-
-
-        Enrique is a LEED AP, NCARB Certified, licensed architect in the State
-        of California, and a member of the Design Review Board for the City of
-        Whittier. He previously worked with Keller CMS, Warmington Homes
-        California and ASC Property Management.
-      email: ediaz@redhookcap.com
-      name: Enrique Diaz
-      role: Vice President of Real Estate
-  title: Leadership
+  details: >-
+    By merging smart financial planning with expertise, Red Hook brings a unique 
+    set of skills to the classroom. Together Craig and David have built a team 
+    that helps schools create top notch facilities to serve the underserved, all 
+    around the country.
+  heading: Meet <br>the Team
+  title: About Us
+faq:
+  groups:
+    - question: Why should I team up with Red Hook? 
+      answer: >
+        A school will not pay anything until keys are delivered to the property and 
+        the school can move in! The school makes payments to Red Hook in the form 
+        of lease payments.
+    - question: Why is Red Hook qualified? 
+      answer: >
+        A school will not pay anything until keys are delivered to the property and 
+        the school can move in! The school makes payments to Red Hook in the form 
+        of lease payments.
+    - question: How does Red Hook help schools own its facility? 
+      answer: >
+        A school will not pay anything until keys are delivered to the property and 
+        the school can move in! The school makes payments to Red Hook in the form 
+        of lease payments.
+    - question: When does my school start to pay Red Hook? 
+      answer: >
+        A school will not pay anything until keys are delivered to the property and 
+        the school can move in! The school makes payments to Red Hook in the form 
+        of lease payments.
+    - question: Why should a school own its campus?
+      answer: >
+        A school will not pay anything until keys are delivered to the property and 
+        the school can move in! The school makes payments to Red Hook in the form 
+        of lease payments.
+  heading: You Ask, <br>We Answer
+  title: FAQS
 careers:
-  date: >-
-      March 26, 2020
-  jobtitle: >-
-      Architectural Manager (Project Manager)
+  date: 
+  jobtitle:
   jobdescription: >-
-      Manage the design, planning and construction of school development projects and capital 
-      improvements, including project specifications.  Coordinate permitting and compliance 
-      activities with government and other regulatory agencies. Manage and coordinate engineers, 
-      architects, consultants and contractors through project stages including design, planning, plan 
-      check, construction, completion. Supervise and coordinate work of contractors. Direct, review 
-      and approve project design changes.  Master’s in Architecture. Occasional same day travel to 
-      project site. Jobsite El Segundo. Send resume to Red Hook Capital Partners.
+    We do not have any job opportunities at the moment, but if you think you would make 
+    a great fit and you're passionate about helping schools provide excellent 
+    educational opportunities- please feel free to reach out to us. Email us your resume 
+    and a cover letter.
   jobemail: >-
       jobs@redhookcap.com
   imageemail: >-
       /images/email-icon.png
+  heading: Work <br>With Us
   title: Careers
+logos:
+  logo:
+    - image: /images/uploads/home/logo-scroller/caslv-logo.png
+      title:
+    - image: /images/uploads/home/logo-scroller/ocean-charter-logo.png
+      title:
+    - image: /images/uploads/home/logo-scroller/crest-logo.png
+      title:
+    - image: /images/uploads/home/logo-scroller/clic-logo.png
+      title:
+    - image: /images/uploads/home/logo-scroller/sonoran-logo.png
+      title:
+    - image: /images/uploads/home/logo-scroller/lvip-high-school-logo.png
+      title:
+contact_form:
+  details: >-
+    Please contact us for any questions, comments, or inquiries you may have using 
+    our form and we will get back to you as soon as possible. 
+  heading: Let’s Get <br>Started
+  title: Contact Us
 ---
 

@@ -83,7 +83,7 @@ const closeNav = function () {
 };
 
 const checkNavPosition = function () {
-  if ($window.scrollTop() > windowHeight - NAV_HEIGHT) {
+  if ($window.scrollTop() > NAV_HEIGHT) {
     if (isSticky === false) {
       isSticky = true;
       $siteNav.addClass('is-sticky');

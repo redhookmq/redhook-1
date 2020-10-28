@@ -1,0 +1,23 @@
+<section id="logo-scroller" class="logo-scroller">
+  <div class="logo-scroller__container">
+
+  	  <div class="slider">
+      	<div class="slider__container">
+
+      		<div class="slider__slides-container">
+      			{{ range $index, $slide := .Params.logos.logo }}
+      				<div class="slider__slide slide">
+
+      					
+      						<img srcset="{{ .image }}" alt="">
+      					
+
+      				</div>
+      			{{ end }}
+      		</div>
+
+      	</div>
+      </div>
+
+  </div>
+ </section>

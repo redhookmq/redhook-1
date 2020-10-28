@@ -2,37 +2,82 @@
 
 }
   .services__container {
-    @include container;
-    padding-top: 144px;
+    @include container-flex--sb;
+    padding-top: 83px;
+    padding-bottom: 100px;
+  }
+
+  .services {
+
+    &__col {
+
+      &-left {
+        max-width: 450px;
+        width: 100%;
+      }
+
+      &-right {
+        max-width: 575px;
+        width: 100%;
+
+        p {
+          font-size: 18px;
+          line-height: 2.22;
+          letter-spacing: .36px;
+          margin-bottom: 40px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+    }
+
+    &__video-instruction {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: .36px;
+      margin-top: 30px;
+      text-transform: uppercase;
+    }
+
+    &__overlap-image {
+      position: absolute;
+      margin-top: 70px;
+      z-index: 10;
+    }
+
   }
     // intro
     // ----------------------------------------- //
     .services__title {
       @include section-title;
+      color: $red;
+      margin-top: 28px;
+    }
+    .services__heading {
+      @include section-heading;
+      margin-top: 45px;
     }
     .services__details {
-      @include section-details;
+      margin-top: 50px;
     }
 
     // list
     // ----------------------------------------- //
     .services__list {
       display: flex;
-      margin-left: -7px;
-      margin-right: -7px;
+      justify-content: space-around;
+      margin-top: 60px;
     }
       .services__list-item {
-        display: flex;
-        flex: 1 1;
-        padding: 0 7px;
         position: relative;
       }
         .service {
-          padding: 88px 0 20px;
-          min-height: 370px;
-          text-align: center;
-          position: relative;
-          background-color: #fff;
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
           .service__icon-wrapper {
             margin-bottom: 26px;
@@ -41,30 +86,30 @@
               fill: $red;
             }
             .service__icon--handshake {
-              width: 105px;
-              height: 70px;
+              width: 62px;
+              height: 40px;
             }
             .service__icon--shovels {
-              width: 70px;
-              height: 70px;
+              width: 40px;
+              height: 40px;
             }
             .service__icon--building {
-              width: 70px;
-              height: 70px;
+              width: 40px;
+              height: 40px;
             }
           .service__title {
-            font-size: 24px;
+            font-size: 18px;
             text-transform: uppercase;
-            font-family: $bold;
-            margin-bottom: 20px;
-            letter-spacing: 0.04em;
+            font-family: $regular;
+            font-weight: 600;
+            letter-spacing: .9px;
           }
-          .service__details {
-            font-size: 20px;
-            line-height: 1.4;
-            letter-spacing: 0.05em;
-            margin: 0 50px;
-          }
+          // .service__details {
+          //   font-size: 20px;
+          //   line-height: 1.4;
+          //   letter-spacing: 0.05em;
+          //   margin: 0 50px;
+          // }
 
 // make columns a vertical column
 // ----------------------------------------- //

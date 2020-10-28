@@ -1,5 +1,5 @@
 @mixin container {
-  max-width: 1287px;
+  max-width: 1280px;
   padding-right: 60px;
   padding-left: 60px;
   margin: 0 auto;
@@ -10,18 +10,32 @@
   padding-left: 20px;
 }
 
+@mixin container-flex--sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 60px;
+}
+
 @mixin section-title {
-  font-size: 54px;
+  font-size: 18px;
   text-transform: uppercase;
-  font-family: $bold;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  font-family: $regular;
+  font-weight: 600;
+  letter-spacing: .9px;
 }
 
 @mixin section-title--sml {
   font-size: 24px;
   margin-bottom: 11px;
+}
+
+@mixin section-heading {
+  font-size: 64px;
+  font-family: $alt;
+  line-height: 1.2;
 }
 
 @mixin section-details {

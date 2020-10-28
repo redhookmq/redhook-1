@@ -33,7 +33,7 @@ blackfriday:
 # Global Site Variables
 #----------------------------------------------------#
 params:
-  copyright: "©2017 Red Hook Capital Partners"
+  copyright: "©2017 - 2020  Red Hook Capital Partners"
   contact:
     title: "Contact"
     call_to_action: "Tell us about your project"

@@ -3,20 +3,25 @@
 }
   .case-studies__container {
     @include container;
-    padding-top: 144px;
+    padding-top: 100px;
   }
     // Intro
     // ----------------------------------------- //
     .case-studies__title {
       @include section-title;
+      color: $red;
+      text-align: center;
     }
-    .case-studies__details {
-      @include section-details;
+    .case-studies__heading {
+      @include section-heading;
+      margin-top: 17px;
+      text-align: center;
     }
 
     // Grid
     // ----------------------------------------- //
     .grid {
+      margin-top: 45px;
       text-align: center;
     }
       .grid__content {
@@ -91,9 +96,11 @@
             }
               .grid-item__title {
                 font-size: 28px;
+                font-weight: 700;
                 text-transform: uppercase;
-                font-family: $bold;
-                line-height: 1.2;
+                font-family: $regular;
+                line-height: 1.43;
+                letter-spacing: .56px;
               }
                 .grid-item__title-arrow {
                   display: none;
@@ -113,14 +120,16 @@
 
                 }
                   .grid-item__details {
-                    font-size: 20px;
-                    line-height: 1.6;
+                    font-size: 16px;
+                    line-height: 2.25;
                     margin-bottom: 20px;
                   }
                   .grid-item__cta {
-                    font-family: $bold;
-                    font-size: 12px;
+                    font-family: $regular;
+                    font-size: 16px;
+                    font-weight: 600;
                     transition: all 0.2s ease;
+                    text-transform: uppercase;
                   }
                     .grid-item__cta-arrow {
                       fill: $red;

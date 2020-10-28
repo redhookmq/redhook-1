@@ -34,6 +34,7 @@ const $biosSection = $('.bios');
 const $navLinks = $('.bios__nav-link');
 const $bios = $('.bio');
 
+
 $leaderLinks.each((i, el) => {
   const $el = $(el);
 
@@ -90,4 +91,46 @@ const closeBio = function () {
   $leadershipSection.removeClass('is-open');
   $biosSection.removeClass('is-open');
 };
+
+// Accordion
+//
+const $accordion = $('.accordion-header');
+const $accordionDesc = $('.accordion-desc');
+const $icon = $('.accordion-header .indicator');
+
+$accordionDesc.fadeOut(0);
+
+ $('.accordion-header').click(function() {
+
+   if ( $('.accordion-header .indicator').hasClass('open' ) ) {
+     $('.accordion-header .indicator').removeClass('open');
+   }
+
+   if( $(this).find('.indicator').hasClass('open') ) {
+
+      $(this).find('.indicator').removeClass('open');
+
+    } else {
+
+      $(this).find('.indicator').addClass('open');
+
+    }
+
+    $accordionDesc.not($(this).next()).slideUp('fast');
+    $(this).next().slideToggle(400);
+
+ });
+
+// $accordion.click((e) => {
+//   e.preventDefault();
+//   triggerAccordion();
+// });
+
+// const triggerAccordion = function() {
+//   console.log($(this));
+//   $accordionDesc.not(
+//     $(this).next()
+//     ).slideUp('fast');
+//   $(this).next($accordionDesc).slideToggle(400);
+// };
 

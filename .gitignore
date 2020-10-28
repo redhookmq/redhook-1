@@ -52,3 +52,6 @@ _nogit
 node_modules
 build
 dist
+
+# Local Netlify folder
+.netlify

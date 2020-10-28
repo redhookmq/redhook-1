@@ -1,0 +1,25 @@
+<section id="contact-form" class="contact-form js-site-section">
+  <div class="contact-form__container">
+
+  	<div class="col-left">
+  		<h2 class="contact-form__title">{{ .Params.contact_form.title | safeHTML }}</h1>
+     	<p class="contact-form__heading">{{ .Params.contact_form.heading | safeHTML }}</p>
+     	<p class="contact-form__description">{{ .Params.contact_form.details | safeHTML }}</p>
+  	</div>
+
+  	<div class="col-right">
+		<form name="contact" method="POST" data-netlify="true">
+
+			<input type="text" name="name" placeholder="Name" />  
+
+			<input type="email" name="email"  placeholder="Email Address" required />
+
+			<textarea name="message"  placeholder="Message" required ></textarea>
+
+			<button class="default" type="submit"><span>Submit</span></button>
+
+		</form>
+  	</div>
+  	
+  </div>
+</section>

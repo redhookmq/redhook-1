@@ -1,0 +1,30 @@
+<section id="testimonials" class="testimonials testimonials-hero js-site-section">
+  <div class="testimonials__container">
+
+  	<div class="testimonials__testimonial-wrapper">
+  		<h1 class="testimonials__title">{{ .Params.testimonials.title }}</h1>
+    	<p class="testimonials__heading">{{ .Params.testimonials.heading }}</p>
+    	
+    	<div class="testimonials__testimonials-container">
+    	{{ range $index, $testimonial := .Params.testimonials.testimonial }}
+
+    		<p class="testimonials__testimonial-text">“{{ .quote }}”</p>
+    		<span class="by-line">{{ .by }}</span>
+
+    	{{ end }}
+    	</div>
+
+  	</div>
+
+  </div>
+</section>
+<style>
+  .testimonials-hero {
+    background-image: url({{ .Params.testimonials.image_lrg | relURL }});
+  }
+  @media (max-width: 870px) {
+    .testimonials-hero {
+      background-image: url({{ .Params.testimonials.image_sml | relURL }});
+    }
+  }
+</style>

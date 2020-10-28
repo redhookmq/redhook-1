@@ -1,0 +1,33 @@
+.logo-scroller {
+	background-color: $black;
+	overflow: hidden;
+	padding: 60px 0;
+
+	.slider {
+		margin-top: 0;
+
+		&__container {
+			margin-bottom: 0;
+
+		}
+
+		&__slides-container {
+			margin-left: -2.855%;
+			margin-right: -2.855%;			
+		}
+	}
+
+	//slides
+
+	.slide {
+		margin-right: 5.7101%;
+		width: auto;
+		flex: 0 0 auto;
+	}
+
+	img {
+		align-self: center;
+	}
+}
+	
+

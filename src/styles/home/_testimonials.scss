@@ -1,0 +1,58 @@
+.testimonials {
+
+	&-hero {
+		background-size: cover;
+		background-position: center center;
+	}
+
+	&__container {
+		@include container;
+		padding-top: 147px; 
+		padding-bottom: 115px;
+	}
+
+	&__testimonial-wrapper {
+		background-color: $white;
+		padding: 70px 64px;
+		position: relative;
+		width: 50%;
+		max-width: 572px;
+		&:after {
+			background-image: url(/images/uploads/home/testimonials/quotes.png);
+			background-size: cover;
+			content: '';
+			height: 63px;
+			left: 68px;
+			position: absolute;
+			top: -32px;
+			width: 81px;
+		}
+	}
+
+    &__title {
+      @include section-title;
+      color: $red;
+      text-align: center;
+    }
+    &__heading {
+      @include section-heading;
+      font-size: 52px;
+      margin-top: 33px;
+      text-align: center;
+    }
+
+    &__testimonial-text {
+    	font-size: 18px;
+    	line-height: 2.22;
+    	margin-top: 30px;
+    	text-align: center;
+    }
+
+    .by-line {
+    	@include section-title;
+    	display: block;
+    	margin: 36px auto 0;
+    	text-align: center;
+    }
+
+}

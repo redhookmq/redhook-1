@@ -10,6 +10,7 @@
 @import 'common/internal-nav';
 @import 'common/site-footer';
 @import 'common/contact';
+@import 'common/contact-form';
 @import 'common/lets-chat';
 
 // home
@@ -17,8 +18,11 @@
 @import 'home/services';
 @import 'home/process';
 @import 'home/case-studies';
+@import 'home/testimonials';
 @import 'home/leadership';
+@import 'home/faq';
 @import 'home/careers';
+@import 'home/logo-scroller';
 @import 'home/bios';
 
 // case studies
@@ -34,7 +38,6 @@
 html,
 body {
   height: 100%;
-  font-family: serif;
   -webkit-font-smoothing: antialiased;
   color: $darkText;
   background-color: $bg;
@@ -43,6 +46,27 @@ body {
 
 #netlify-identity-widget {
   z-index: 9999;
+}
+
+button.default {
+  background-color: $red;
+  color: $white;
+  font-size: 18px;
+  font-family: $regular;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  line-height: 1;
+  padding: 24px 44px;
+  transition: background-color 0.3s ease;
+
+  span {
+    font-weight: 600
+  }
+
+  &:hover {
+    background-color: $darkRed;
+  }
+
 }
 
 // Site container on mobile will slide left to reveal main nav on right

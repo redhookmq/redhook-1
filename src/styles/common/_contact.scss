@@ -5,6 +5,7 @@
   .contact__container {
     @include container;
     padding-top: 60px;
+    padding-bottom: 60px;
     height: 700px;
     display: flex;
     justify-content: flex-end;
@@ -16,7 +17,7 @@
     .contact__block {
       width: 500px;
       background-color: #fff;
-      padding: 85px 103px;
+      padding: 72px 103px;
     }
       .contact__detail:not(:last-child) {
         margin-bottom: 30px;
