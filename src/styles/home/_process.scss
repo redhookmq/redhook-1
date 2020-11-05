@@ -146,7 +146,8 @@
         top: 50%;
         right: -60px;
         margin-top: -30px;
-        height: 60px;
+        height: 68px;
+        width: 68px;
         z-index: 10;
         background-color: $red;
         font-size: 16px;
@@ -155,7 +156,7 @@
         text-transform: uppercase;
         letter-spacing: 0.035em;
         padding: 12px 26px 12px 27px;
-        border-radius: 0;
+        border-radius: 50%;
         transition: background-color 0.3s ease;
       }
       .slider__next-btn--last {
@@ -171,17 +172,18 @@
         }
         .slider__next-arrow {
           fill: #fff;
-          width: 8px;
-          height: 13px;
-          position: relative;
-          top: 1px;
-          margin-left: 6px;
-          transition: transform 0.2s ease;
+          width: 32px;
+          height: 16px;
+          left: 50%;
+          top: 50%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          transition: all .25s linear;
         }
       .slider__next-btn:hover {
         background-color: $darkRed;
         .slider__next-arrow {
-          transform: translateX(5px);
+          transform: translate(-35%,-50%);
         }
       }
 

@@ -6,3 +6,4 @@ import Gallery from './common/Gallery';
 $('.cs-gallery').each((i, el) => {
   const thisGallery = new Gallery(el);
 });
+

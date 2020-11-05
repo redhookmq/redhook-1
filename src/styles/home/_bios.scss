@@ -1,49 +1,65 @@
 .bios {
   position: relative;
-  background-color: #fff;
+  background-color: $bg;
   display: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .bios.is-open {
   display: block;
 }
 .bios__container {
   @include container;
-  padding-top: 156px;
-  padding-bottom: 70px;
-  display: flex;
+  
+}
+
+.bios__leadership__title {
+  @include section-title;
+  color: $red;
+  text-align: center;
+}
+
+.bios__leadership__heading {
+  @include section-heading;
+  margin-top: 30px;
+  text-align: center;
+
+    br {
+      display: none;
+    }
 }
 // nav
 // ----------------------------------------- //
-.bios__nav {
-  flex: 0 0 218px;
-}
-.bios__nav-item {
-  margin-bottom: 20px;
-}
-.bios__nav-link {
-  font-size: 20px;
-  font-family: $bold;
-  color: $darkText;
-  transition: color 0.2s ease;
-  &:hover {
-    color: $darkRed;
-  }
-  &.is-current {
-    color: $red;
-  }
-}
+// .bios__nav {
+//   flex: 0 0 218px;
+// }
+// .bios__nav-item {
+//   margin-bottom: 20px;
+// }
+// .bios__nav-link {
+//   font-size: 20px;
+//   font-family: $bold;
+//   color: $darkText;
+//   transition: color 0.2s ease;
+//   &:hover {
+//     color: $darkRed;
+//   }
+//   &.is-current {
+//     color: $red;
+//   }
+// }
 // close btn
 // ----------------------------------------- //
 .bios__close-btn {
   position: absolute;
-  top: 156px;
+  top: 98px;
   right: 60px;
   transition: all 0.3s ease;
 }
 .bios__close-icon {
   width: 25px;
   height: 25px;
-  fill: $darkGray;
+  fill: $red;
   transition: all 0.3s ease;
 }
 // hover
@@ -56,24 +72,57 @@
 // bio
 // ----------------------------------------- //
 .bios__bio {
-  flex: 1 1;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  &:first-of-type {
+    margin-top: 100px;
+    padding-top: 0;
+  }
+  
 }
+// .bio {
+//   //display: none;
+// }
 .bio {
-  display: none;
-}
-.bio.is-current {
   display: flex;
+  position: relative;
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+    &:after {
+      background-color: $white;
+      content: '';
+      display: block;
+      height: 100%;
+      left: -25vw;
+      position: absolute;
+      width: 200vw;
+      top: 0;
+      z-index: 0;
+    }
+
+    .bio__copy-container {
+      padding: 0 3.5344% 0 0;
+    }
+  }
 }
 // image
 // ----------------------------------------- //
 .bio__img-container {
   flex: 1 1 31.5%;
+  width: 361px;
+  height: 438px;
+  position: relative;
+  z-index: 2;;
 }
 .bio__img-wrapper {
-  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
   overflow: hidden;
   font-size: 0;
   line-height: 0;
+  height: 100%;
+  width: 100%;
+
 }
 .bio__img {
   width: 100%;
@@ -81,20 +130,19 @@
 // copy
 // ----------------------------------------- //
 .bio__copy-container {
-  flex: 1 1 68.5%;
-  padding: 0 25px 0 7.4%;
+  flex: 1 1 64.6551%;
+  padding: 0 25px 0 3.5344%;
+  position: relative;
+  z-index: 2;
 }
 .bio__title {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 5px;
-  font-family: $bold;
+  @include section-heading;
+  font-size: 48px;
 }
 .bio__role {
-  font-size: 23px;
-  margin-bottom: 26px;
-  letter-spacing: 0.03em;
+  @include section-title;
+  color: $red;
+  margin-top: 20px;
 }
 .bio__details {
   font-size: 20px;

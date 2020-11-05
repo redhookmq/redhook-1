@@ -108,7 +108,7 @@ const scrollToSection = function (id) {
   closeNav();
 
   $body.animate({
-    scrollTop: $(id).offset().top + 1
+    scrollTop: $(id).offset().top - 168
   }, 500, 'easeInOutQuad');
 };
 

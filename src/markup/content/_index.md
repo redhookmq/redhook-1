@@ -24,6 +24,7 @@ services:
       title: Financing
   video_image_lrg: /images/uploads/home/services/video-overlay.jpg
   video_image_sml: /images/uploads/home/services/video-overlay.jpg
+  video_url: <iframe width="560" height="315" src="https://www.youtube.com/embed/HGfkjWnfmT4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   video_instruct: Watch the video
   overflow_image_lrg: /images/uploads/home/services/services-science.jpg
   overflow_image_sml: /images/uploads/home/services/services-science.jpg
@@ -104,6 +105,8 @@ leadership:
         Trammell Crow Company, Playa Capital Company (Playa Vista Master
         Development), and most recently he served as the CFO/COO at Alliance
         College Ready Public Schools in Los Angeles.
+      grade_memory_title: Best grade school memory
+      grade_memory: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: images/uploads/home/leadership/david.jpg
       email: dhyun@redhookcap.com
       name: David Hyun
@@ -123,6 +126,8 @@ leadership:
         including various charter school organizations. During his career, he
         has overseen debt, derivative and structured financial product
         transactions totalling over $40 billion in principal/notional amounts.
+      grade_memory_title: Best grade school memory
+      grade_memory: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       image: images/uploads/home/leadership/craig.jpg
       email: cunderwood@redhookcap.com
       name: Craig Underwood

@@ -33,12 +33,83 @@
 
     }
 
+    &__video {
+      cursor: pointer;
+      position: relative;
+      &.active {
+      }
+    }
+
     &__video-instruction {
       font-size: 18px;
       font-weight: 600;
       letter-spacing: .36px;
       margin-top: 30px;
       text-transform: uppercase;
+    }
+
+    &__video-play-btn {
+      background-image: url(/images/uploads/home/services/play-btn.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      left: 50%;
+      height: 53px;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 53px;
+      z-index: 10;
+      transition: all .25s linear;
+      &.active {
+        opacity: 0;
+        pointer-events: none;
+      }
+    }
+
+    &__video-keyframe-image {
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      transition: all .33s linear;
+      &.active {
+        opacity: 0;
+      }
+    }
+
+    &__video-container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    &__responsive-video {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+
+      object,
+      embed,
+      iframe,
+      video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        margin: 0;
+      }
+
     }
 
     &__overlap-image {

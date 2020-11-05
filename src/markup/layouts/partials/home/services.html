@@ -4,9 +4,13 @@
     <div class="services__col-left">
 
       <div class="services__video">
-        <img src="{{ .Params.services.video_image_lrg | relURL }}" />
-        <h3 class="services__video-instruction">{{ .Params.services.video_instruct }}</h3>
+        <div class="services__video-play-btn"></div>
+        <img class="services__video-keyframe-image" src="{{ .Params.services.video_image_lrg | relURL }}" />
+        <div class="services__video-container">     
+          <div class="services__responsive-video" data-video="{{ .Params.services.video_url }}"></div><!-- /.responsive-video -->
+        </div><!-- /.inline-video -->
       </div>
+      <h3 class="services__video-instruction">{{ .Params.services.video_instruct }}</h3>
 
       <div class="services__overlap-image">
         <img src="{{ .Params.services.overflow_image_lrg | relURL }}" />        

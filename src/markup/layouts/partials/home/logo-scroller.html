@@ -14,6 +14,17 @@
 
       				</div>
       			{{ end }}
+
+            {{ range $index, $slide := .Params.logos.logo }}
+              <div class="slider__slide slide">
+
+                
+                  <img srcset="{{ .image }}" alt="">
+                
+
+              </div>
+            {{ end }}
+            
       		</div>
 
       	</div>

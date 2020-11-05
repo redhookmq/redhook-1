@@ -3,13 +3,14 @@ import Slider from './common/Slider';
 import Grid from './common/Grid';
 
 const $window = $(window);
+const $hero = $('#hero');
 
 // init scroll down button
 // ----------------------------------------- //
 $('.scroll-down-btn').click((e) => {
   e.preventDefault();
   $('html, body').animate({
-    scrollTop: $window.height()
+    scrollTop: $hero.height() - 170
   }, 500, 'easeInOutQuad');
 });
 
@@ -120,6 +121,24 @@ $accordionDesc.fadeOut(0);
     $(this).next().slideToggle(400);
 
  });
+
+
+$(".services__video").on("click", function (ev) {
+  
+  $(this).addClass("active");
+
+  var $video = $(this)
+  .children(".services__video-container")
+  .children(".services__responsive-video");
+
+  $video.addClass("active");
+  $(".services__video-keyframe-image").addClass('active');
+  $(".services__video-play-btn").addClass('active');
+  $(".video-placeholder").addClass('active');
+
+  $video.html($($video.data("video")));
+
+});
 
 // $accordion.click((e) => {
 //   e.preventDefault();
