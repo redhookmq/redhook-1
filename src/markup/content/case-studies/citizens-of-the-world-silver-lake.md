@@ -5,7 +5,7 @@ description: CWC welcomed 650 student-scholars into a brand new building
 call_to_action: >-
   With Red Hook’s assistance, CWC welcomed 650 student-scholars into a brand new
   building
-featured_image: /images/uploads/IMG_6971 (2).JPG
+featured_image: /images/uploads/IMG_6971.JPG
 grid_layout: horizontal
 services:
   - service: K-8 Charter School
@@ -14,7 +14,7 @@ touts:
 quote:
   text: ' '
 gallery:
-  - {}
+  - image: /images/uploads/IMG_6970.JPG
   - image: /images/uploads/IMG_6968.JPG
   - image: /images/uploads/IMG_6974.JPG
 ---
