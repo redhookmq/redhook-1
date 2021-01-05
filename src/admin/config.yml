@@ -126,7 +126,7 @@ collections:
     fields:
       - {label: "Case Study Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date (Most recent show up on top on the home page)", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Call To Action (Used on home page when hovering)", name: "call_to_action", widget: "string"}
       - {label: "Featured Image (1366 x 813) (Used on home page and top of Case Study)", name: "featured_image", widget: "image"}
       - {label: "Grid Layout (How the Case Study should look in the home page grid)", name: "grid_layout", widget: "select", options: ["horizontal", "vertical"]}
@@ -138,6 +138,7 @@ collections:
       - label: "Touts"
         name: "touts"
         widget: "list"
+        required: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image (640 x 337)", name: "image", widget: "image"}
@@ -145,6 +146,7 @@ collections:
       - label: "Quote"
         name: "quote"
         widget: "object"
+        required: false
         fields:
           - {label: "Text", name: "text", widget: "markdown"}
           - {label: "Source's Name", name: "source_name", widget: "string"}
