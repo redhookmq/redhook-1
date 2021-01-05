@@ -25,27 +25,38 @@
       }
 
 @media (max-width: $mobileNav) {
+
   .site-header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: block;
-    height: 48px;
-    background-color: #fff;
+    height: auto;
+    background-color: transparent;
     z-index: 100;
-    padding-top: 9px;
+    padding: 0;
+    transition: all .33s linear;
+    &.is-sticky {
+      background-color: $black;
+    }
   }
     .site-header__container {
       @include container--sml;
-      padding-top: 0;
+      padding: 15px 5.3333%;
       display: flex;
       justify-content: space-between;
     }
       // logo
       // ----------------------------------------- //
       .site-header__logo {
-
+        max-width: 350px;
+        width: 46.6666%;
+        height: 50px;
+        svg {
+          width: 100%;
+          height: 100%;
+        }
       }
         .site-header__logo-icon {
           width: 83.5px;
@@ -58,6 +69,6 @@
 
       }
         .menu-btn__icon {
-          fill: $red;
+          fill: $white;
         }
 }

@@ -28,8 +28,8 @@
 }
 
 @mixin section-title--sml {
-  font-size: 24px;
-  margin-bottom: 11px;
+  font-size: 11px;
+  letter-spacing: 1.1px;
 }
 
 @mixin section-heading {
@@ -39,7 +39,7 @@
 }
 
 @mixin section-details {
-  font-size: 20px;
+  font-size: 60px;
   line-height: 1.4;
   letter-spacing: 0.005em;
   text-align: center;
@@ -47,6 +47,5 @@
 }
 
 @mixin section-details--sml {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 60px;
 }

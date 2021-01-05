@@ -2,7 +2,7 @@
   <div class="faq__container">
 
   	<div class="col-left">
-  		{{ range $index, $faq := .Params.faq.groups }}
+  		{{ range $index, $faq := first 5 .Params.faq.groups }}
   		<div class="accordion accordion-header">
   			<div>
   				<h3 class="accordion-heading">{{ .question }}</h3>
@@ -16,12 +16,13 @@
   		</div>
 
   		{{ end }}
+      <button class="faq-all default mobile"><span>See All</span></button>
   	</div>
 
   	<div class="col-right">
   		<h2 class="faq__title">{{ .Params.faq.title | safeHTML }}</h1>
      	<p class="faq__heading">{{ .Params.faq.heading | safeHTML }}</p>
-     	<button class="faq-all default"><span>See All</button>
+     	<button class="faq-all default"><span>See All</span></button>
   	</div>
 
   </div>

@@ -144,7 +144,7 @@
       .slider__next-btn {
         position: absolute;
         top: 50%;
-        right: -60px;
+        right: -34px;
         margin-top: -30px;
         height: 68px;
         width: 68px;
@@ -235,17 +235,25 @@
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .process {
+    padding-top: 20px;
     padding-bottom: 0;
   }
   .process__container {
     @include container--sml;
     padding-top: 44px;
+    padding-bottom: 50px;
   }
 
   // intro
   // ----------------------------------------- //
   .process__title {
     @include section-title--sml;
+    text-align: center;
+  }
+  .process__heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
   }
   .process__details {
     @include section-details--sml;
@@ -254,13 +262,14 @@
   // slider
   // ----------------------------------------- //
   .slider {
-
+    margin-top: 25px;
   }
     // slider container
     // ----------------------------------------- //
     .slider__container {
-      margin-bottom: 25px;
       position: relative;
+      display: flex;
+      flex-direction: column;
     }
       .slider__slides-mask {
         overflow: hidden;
@@ -278,7 +287,8 @@
         // slide
         // ----------------------------------------- //
         .slider__slide {
-          display: inline-block;
+          display: inline-flex;
+          flex-direction: column-reverse;
           width: 100%;
           flex: 0 0 100%;
           font-size: 0;
@@ -300,55 +310,64 @@
           // copy
           // ----------------------------------------- //
           .slide__copy {
+            background-color: $white;
             position: relative;
             width: 100%;
             height: 100%;
             color: #fff;
-            background-color: #363635;
-            padding: 26px 15px 20px 20px;
+            padding: 20px 27px;
           }
             .slide__title {
               font-size: 22px;
               text-transform: uppercase;
-              font-family: $bold;
-              letter-spacing: 0.03em;
-              margin-bottom: 10px;
+              font-family: $regular;
+              letter-spacing: 1.1px;
+              line-height: 1;
+            }
+
+            .slide__step-title {
+              font-family: $alt;
+              font-size: 24px;
+              color: $black;
+              line-height: 1.42;
+              margin-top: 5px;
             }
               .slide__number {
+                color: $red;
                 display: inline-block;
-                font-size: 13px;
-                font-family: $bold;
-                width: 18px;
-                height: 18px;
-                background-color: $red;
-                text-align: center;
-                line-height: 19px;
+                font-size: 12px;
+                font-family: $regular;
+                font-weight: 700;
                 margin-right: 2px;
-                border-radius: 50%;
-                position: relative;
-                top: -4px;
               }
             .slide__details {
+              color: $black;
               font-family: $medium;
-              font-size: 15px;
-              line-height: 1.5;
-              letter-spacing: 0.02em;
+              font-size: 12px;
+              line-height: 2;
+              letter-spacing: 0.48px;
+              margin-top: 6px;
             }
 
       // next button
       // ----------------------------------------- //
       .slider__next-btn {
-        display: block;
-        width: 100%;
-        height: 35px;
+        align-self: center;
+        display: inline-block;
         background-color: $red;
-        font-size: 12px;
-        font-family: $bold;
+        font-size: 11px;
+        font-family: $regular;
+        font-weight: 700;
         color: #fff;
         text-transform: uppercase;
-        letter-spacing: 0.035em;
-        padding: 0;
-        margin: 0 auto;
+        line-height: 1;
+        letter-spacing: 2.2px;
+        padding: 14px 35px;
+        margin: 10px auto 0;
+
+        svg {
+          display: none;
+        }
       }
       .slider__next-btn--last {
         display: none;

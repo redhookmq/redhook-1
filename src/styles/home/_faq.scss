@@ -2,6 +2,10 @@
 	padding-top: 120px;
 	padding-bottom: 40px;
 
+	&.is-open {
+		display: none;
+	}
+
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -41,77 +45,200 @@
 
 	}
 
-	// items (FAQs)
+	@media (max-width: $mobileNav) {
+		padding: 50px 0;
 
-	.accordion {
-		background-color: $white;
+		&__container {
+			flex-flow: column-reverse;
+			padding: 0 20px;
+		}
+
+		&__title {
+			@include section-title--sml;
+			text-align: center;
+			margin-top:0;
+		}
+
+		&__heading {
+			font-size: 30px;
+			text-align: center;
+			margin-top: 27px;
+			br {
+				display: none;
+			}
+		}
+
+		.col {
+			&-right,
+			&-left {
+				max-width: 100%;
+			}
+
+			&-right {
+				button {
+					display: none;
+				}
+			}
+
+			&-left {
+				margin-top: 25px;
+			}
+		}
+
+		button.default {
+			display: none;
+			&.mobile {
+				display: block;
+		      	margin: 30px auto 0;
+		      	padding: 8px 25px 14px;
+			      span {
+			        font-size: 11px;
+			        line-height: 1;
+			      }
+			}
+		}
+
+	}
+
+}
+
+.faqs {
+	background-color: $bg;
+	display: none;
+	padding: 100px 0;
+
+	&.is-open {
+		display: block;
+		padding: 50px 0;
+	}
+
+	.faq {
+
+		&__container {
+			flex-direction: column;
+		}
+
+		&__title {
+			text-align: center;
+		}
+		&__heading {
+			text-align: center;
+			br {
+				display: none;
+			}
+		}
+	}
+
+	.desc {
+		max-width: 975px;
+	}
+
+	.col-faqs {
+		margin-top: 52px;
+	}
+
+	.faq-close {
+		align-self: center;
+		margin-top: 68px;
+		      	margin: 30px auto 0;
+		      	padding: 8px 25px 14px;
+			      span {
+			        font-size: 11px;
+			        line-height: 1;
+			      }
+	}
+}
+
+
+// items (FAQs)
+
+.accordion {
+	background-color: $white;
+
+	&-header {
+		padding: 30px;
+		position: relative;
+		cursor: pointer;
+		margin-top: 20px;
+		&:first-child {
+			margin-top: 0;
+		}
+
+		> div {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		i {
+			height: 20px;
+			position: relative;
+			width: 20px;
+
+			&:before,
+			&:after {
+				display: block;
+				background-color: $red;
+				content: '';
+				position: absolute;
+				transition: all .3s linear;
+			}
+			&:before {
+				width: 100%;
+				height: 2px;
+				top: 50%;
+				transform: translateY(-50%);
+				transform-origin: center center;
+			}
+			&:after {
+				width: 2px;
+				height: 100%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			&.open {
+				&:after {
+					transform: rotate(90deg) translateY(0%);
+				}
+			}
+		}
+
+		h3 {
+			color: $black;
+			font-family: $regular;
+			font-size: 22px;
+			font-weight: 600;
+			max-width: 78.1954%;
+			width: 100%;
+		}
+	}
+
+	&-desc {
+		padding: 0 30px 36px;
+		p {
+			font-size: 18px;
+			line-height: 2.22;
+			//max-width: 75.1879%;
+			max-width: 500px;
+		}
+	}
+
+	@media (max-width: $mobileNav) {
 
 		&-header {
-			padding: 30px;
-			position: relative;
-			cursor: pointer;
-			margin-top: 20px;
-			&:first-child {
-				margin-top: 0;
-			}
-
-			> div {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
-
-			i {
-				height: 20px;
-				position: relative;
-				width: 20px;
-
-				&:before,
-				&:after {
-					display: block;
-					background-color: $red;
-					content: '';
-					position: absolute;
-					transition: all .3s linear;
-				}
-				&:before {
-					width: 100%;
-					height: 2px;
-					top: 50%;
-					transform: translateY(-50%);
-					transform-origin: center center;
-				}
-				&:after {
-					width: 2px;
-					height: 100%;
-					left: 50%;
-					transform: translateX(-50%);
-				}
-
-				&.open {
-					&:after {
-						transform: rotate(90deg) translateY(0%);
-					}
-				}
-			}
+			padding: 17px 15px;
 
 			h3 {
-				color: $black;
-				font-family: $regular;
-				font-size: 22px;
-				font-weight: 600;
-				max-width: 78.1954%;
-				width: 100%;
+				font-size: 14px;
+				line-height: 1.2;
 			}
 		}
 
 		&-desc {
-			padding: 0 30px 36px;
+			padding: 0 15px 17px;
 			p {
-				font-size: 18px;
-				line-height: 2.22;
-				//max-width: 75.1879%;
-				max-width: 500px;
+				font-size: 12px;
 			}
 		}
 

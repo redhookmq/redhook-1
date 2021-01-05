@@ -112,16 +112,61 @@
 	// mobile styles
 	// ----------------------------------------- //
 	@media (max-width: $mobileNav) {
+		padding-top: 0;
+		padding-bottom: 0;
 
 	    &__container {
 	    	@include container--sml;
 	    	padding-top: 44px;
+	    	padding: 40px 25px;
+	    	width: calc(100% - 40px);
+	    	flex-flow: column;
+
+	    	.col {
+	    		&-right,
+	    		&-left {
+	    			flex: 0 0 100%;
+	    			width: 100%;
+	    		}
+
+	    		&-left {
+	    			margin-top: 0;
+	    			width: 100%;
+	    			.careers__heading {
+	    				font-size: 30px;
+	    				margin-top: 10px;
+	    				text-align: center;
+	    				br {
+	    					display: none;
+	    				}
+	    			}
+	    		}
+
+	    		&-right {
+	    			margin-top: 30px;
+
+	    			.about-job {
+	    				font-size: 11px;
+	    				line-height: 2;
+	    				text-align: center;
+	    				margin-bottom: 0;
+	    			}
+
+	    			.contact-job {
+	    				font-size: 11px;
+	    				justify-content: center;
+	    				margin-top: 20px;
+	    			}
+	    		}
+	    	}
 	    }
 	    // Intro
 	    // ----------------------------------------- //
 	    &__title {
 		    @include section-title--sml;
-		    margin-bottom: 45px;
+		    margin-bottom: 0;
+		    width: 100%;
+		    text-align: center;
 	    }
 
 	    &__jobs {

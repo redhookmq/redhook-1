@@ -165,6 +165,8 @@
         // cta
         // ----------------------------------------- //
         .grid__cta {
+          font-family: regular;
+          color: $red;
           text-align: center;
           display: none;
         }
@@ -173,8 +175,13 @@
             font-size: 12px;
             font-family: $bold;
             text-transform: uppercase;
+            position: relative;
             margin-bottom: 5px;
             transition: all 0.2s ease;
+            .plus {
+              position: relative;
+              top: -1px;
+            }
           }
           .grid__cta-arrow {
             fill: $red;
@@ -215,6 +222,15 @@
 // Hide description and only use titles
 // ----------------------------------------- //
 @media (max-width: 800px) {
+  .case-studies__heading {
+    font-size: 30px;
+  }
+  .case-studies__container {
+    padding-bottom: 30px;
+  }
+  .case-studies__grid {
+    margin-top: 25px;
+  }
   .grid-item__title-arrow {
     display: inline-block;
   }
@@ -231,6 +247,9 @@
 @media (max-width: 700px) {
   .grid-item__title {
     font-size: 12px;
+    svg {
+      display: none;
+    }
   }
   .grid-item__title-arrow {
     width: 4px;

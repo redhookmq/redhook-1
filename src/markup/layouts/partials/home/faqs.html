@@ -1,0 +1,26 @@
+<section class="faqs">
+	<div class="faq__container">
+  		<h2 class="faq__title">{{ .Params.faq.title | safeHTML }}</h1>
+     	<p class="faq__heading">{{ .Params.faq.heading | safeHTML }}</p>
+
+     	<div class="col-faqs">
+	  		{{ range $index, $faq := .Params.faq.groups }}
+
+	  		<div class="accordion accordion-header">
+	  			<div>
+	  				<h3 class="accordion-heading">{{ .question }}</h3>
+	  				<i class="indicator"></i>
+	  			</div>
+	  		</div>
+	  		<div class="accordion accordion-desc">
+	  			<p class="desc">
+	  				{{ .answer }}
+	  			</p>
+	  		</div>
+
+	  		{{ end }}     		
+     	</div>
+
+     	<button class="faq-close default"><span>close</button>
+	</div>
+</section>

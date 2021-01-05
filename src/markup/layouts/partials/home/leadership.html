@@ -9,7 +9,7 @@
       </button>
     </div>
     <div class="leadership__leaders">
-      {{ range .Params.leadership.leader }}
+      {{ range first 2 .Params.leadership.leader }}
         <div class="leadership__leader leader">
           <a
             href="#{{ urlize .name }}"
@@ -26,6 +26,9 @@
           </a>
         </div>
       {{ end }}
+      <button class="leadership__all-button default mobile">
+        <span class="leadership-all">All Team Bios</span>
+      </button>
     </div>
   </div>
 </section>

@@ -1,4 +1,5 @@
 .testimonials {
+	position: relative;
 
 	&-hero {
 		background-size: cover;
@@ -29,6 +30,10 @@
 		}
 	}
 
+	&__wrapper {
+		position: relative;
+	}
+
     &__title {
       @include section-title;
       color: $red;
@@ -55,4 +60,114 @@
     	text-align: center;
     }
 
+
+    @media ( max-width: $mobileNav ) {
+
+		&__container {
+			padding-bottom: 0;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-top: 30px;
+		}
+
+		&__testimonial-wrapper {
+			width: 100%;
+			padding: 30px 25px;
+
+			&:after {
+				width: 40px;
+				height: 31px;
+				left: 30px;
+				top: -15px;
+			}
+		}
+
+		&__title {
+			font-size: 11px;
+		}
+
+		&__heading {
+			font-size: 30px;
+			margin-top: 15px;
+		}
+
+		&__testimonial-text {
+			font-size: 12px;
+			line-height: 2;
+			margin-top: 20px;
+		}
+
+		.by-line {
+			color: $red;
+			font-size: 11px;
+			letter-spacing: 1.1px;
+			margin-top: 22px;
+		}
+
+		.bg {
+			background-size: cover;
+			background-position: center center;
+			display: block;
+			height: 479px;
+			position: relative;
+			margin-top: -33%;
+			z-index: -1;
+
+		}
+
+    }
+
+    .num-0 {
+    	animation-name: fade;
+    	animation-duration: 18s;
+    	animation-iteration-count: infinite;
+    	// position: absolute;
+    }
+
+    .num-1 {
+    	animation-name: fade-two;
+    	animation-duration: 18s;
+    	animation-iteration-count: infinite;
+    	position: absolute;
+    	top: -30px;
+    }
+
+    .num-2 {
+    	animation-name: fade-three;
+    	animation-duration: 18s;
+    	animation-iteration-count: infinite;
+    	position: absolute;
+    	top: -30px;
+    }
+
 }
+
+@keyframes fade {
+    0% {opacity: 1;}
+    27% {opacity: 1;}
+    33% {opacity: 0;}
+    93% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-two {
+    0% {opacity: 0;}
+    27% {opacity: 0;}
+    33% {opacity: 1;}
+    60% {opacity: 1;}
+    66% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade-three {
+    0% {opacity: 0; }
+    33% {opacity: 0;}
+    60% {opacity: 0;}
+    66% {opacity: 1;}
+    93% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+
+

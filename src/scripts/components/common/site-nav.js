@@ -10,6 +10,7 @@ const $window = $(window);
 const $body = $('html, body');
 const $mask = $('.site-container__mask');
 const $siteNav = $('.site-nav');
+const $mobNav = $('.site-header');
 const $menuBtn = $('.menu-btn');
 const $links = $('.js-nav-link');
 const $siteSections = $('.js-site-section');
@@ -87,10 +88,12 @@ const checkNavPosition = function () {
     if (isSticky === false) {
       isSticky = true;
       $siteNav.addClass('is-sticky');
+      $mobNav.addClass('is-sticky');
     }
   } else if (isSticky) {
     isSticky = false;
     $siteNav.removeClass('is-sticky');
+    $mobNav.removeClass('is-sticky');
   }
 };
 

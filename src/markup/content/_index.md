@@ -3,11 +3,11 @@ hero:
   details: >-
     Red Hook Capital Partners helps charter schools design, build, and own their perfect campus.
   image_lrg: /images/uploads/hero-rhc-v2.jpg
-  image_sml: /images/uploads/hero-sml.jpg
+  image_sml: /images/uploads/hero-small-rhc-v2.jpg
   title: Building Better Schools Together
 services:
   details: >-
-    Red Hook Capital Partners serves schools that make a powerful impact in their communities. We partner with high-quality schools that teach underserved students, ELL and students of color, as well as ones that provide free and reduced fee lunches or offer unique aspects to education. 
+    Red Hook Capital Partners serves schools that make a powerful impact in their communities. We partner with high-quality schools that teach underserved students, ELL and students of color, as well as ones that provide free and reduced fee lunches, or offer unique aspects to education.
 
 
     Red Hook is a special combination of finance and construction. Growing from co-founders Craig Underwood’s financial savvy and David Hyun’s deep knowledge of real estate development, Red Hook supports charter school leaders as they navigate bureaucratic red tape, construction complexity and tight timeframes. We’re (literally) invested in seeing you succeed. 
@@ -22,12 +22,12 @@ services:
     - details: We provide financing so you can build
       icon: building
       title: Financing
-  video_image_lrg: /images/uploads/home/services/video-overlay.jpg
-  video_image_sml: /images/uploads/home/services/video-overlay.jpg
+  video_image_lrg: /images/uploads/home/services/video-overlay-two.jpg
+  video_image_sml: /images/uploads/home/services/video-overlay-two.jpg
   video_url: <iframe width="560" height="315" src="https://www.youtube.com/embed/HGfkjWnfmT4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   video_instruct: Watch the video
   overflow_image_lrg: /images/uploads/home/services/services-science.jpg
-  overflow_image_sml: /images/uploads/home/services/services-science.jpg
+  overflow_image_sml: /images/uploads/home/services/services-science-small.jpg
   title: Our Services
 process:
   details: >-
@@ -35,39 +35,31 @@ process:
     the best course of action to have a successful build.
   step:
     - details: >-
-        We review our schools’ financials, academic record, management team and
-        competitive landscape. Once we understand its strengths and weaknesses,
-        we create a plan that serves the school, its faculty and its students.
+        To prepare our partners for the journey, we review a school’s financials, academic record, management team and competitive landscape. Once we understand its strengths and weaknesses, we create an action plan that serves the school, its faculty and its students.
       img_lrg: images/uploads/home/process/lrg/01.jpg
       img_sml: images/uploads/home/process/sml/01.jpg
-      title: Review
+      title: Getting Started
     - details: >-
-        With property identified and under contract, we work with the school on
-        entitlement and development plans. Our team is deeply experienced with
-        the challenges that arise, and we will drive the effort to resolve
+        When we find the property that fits you best, we will work with you to plan the best building for the needs of your program. Then, we will lead the efforts to get the project approved by the local municipality. Our team is deeply experienced with the challenges that arise, and can help navigate any bureaucratic hiccups.
         conflicts.
       img_lrg: images/uploads/home/process/lrg/02.jpg
       img_sml: images/uploads/home/process/sml/02.jpg
-      title: Site Search
+      title: Property & Plans
     - details: >-
-        In partnership with the school, Red Hook manages the execution of the
-        development plan. With years of construction experience, our team of
-        building experts can save time, money and reduce risks.
+        Once architectural drawings are finalized, we will collaborate with you throughout construction. With years of construction experience, Red Hook’s building experts save you time, money and reduce risks. From watching rebar go up to finalizing paint and tile, you will be deeply involved in the construction of your forever home.
       img_lrg: images/uploads/home/process/lrg/03.jpg
       img_sml: images/uploads/home/process/sml/03.jpg
-      title: Develop
+      title: Construction
     - details: >-
-        Red Hook provides an open-book lease negotiation process. We then act as
-        the landlord and the school is the proud new tenant.
+        Red Hook’s lease negotiation process is fully transparent. We then act as the landlord and the school is the proud new tenant, en route to taking ownership of their property
       img_lrg: images/uploads/home/process/lrg/04.jpg
       img_sml: images/uploads/home/process/sml/04.jpg
-      title: Lease
+      title: Lease to Own
     - details: >-
-        We want you to own, and we will work with you to buy your building when
-        you’re in the best position to do so.
+        We want you to own, and we will work with you to buy your building when you’re in the best position to do so.
       img_lrg: images/uploads/home/process/lrg/05.jpg
       img_sml: images/uploads/home/process/sml/05.jpg
-      title: Purchase
+      title: Your Permanent Home
   heading: From Vision<br>to Reality
   title: Our Process
 case_studies:
@@ -80,92 +72,129 @@ case_studies:
 testimonials:
   testimonial:
     - quote: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-        nisi ut aliquip ex ea commodo consequat.
-      by: Coral Academy
+        Red Hook believed in our team, believed in our vision and most importantly believed that we can change the lives of students in the Inland Empire. We're thrilled that we chose them as our bridge financing and happy to say we now own our school campus!
+      by: Alex Lucero, Chief Executive Officer of Real Journey Academies
+    - quote: >
+        Red Hook's deep knowledge of the charter school facility development process allowed us to keep focused on our students' academics and learning. I highly recommend the Red Hook team for facility financing and development.
+      by: Ercan Aydogdu, Executive Director and CEO of Coral Academy of Science Las Vegas
+    - quote: >
+        For years now, Value Schools has worked hand-in-hand with Red Hook Capital to find, design and create magnificent schools for our students. From financing to development, Red Hook was with us every step of the way.
+      by: David Doyle, President and CEO of Value Schools
   image_lrg: /images/uploads/home/testimonials/testimonials.jpg
-  image_sml: /images/uploads/hero-sml.jpg
+  image_sml: /images/uploads/home/testimonials/testimonial-small.jpg
   heading: What They Say
   title: Testimonials
 leadership:
   leader:
     - bio: >
-        David’s knowledge of charter school real estate development is
-        unsurpassed. Since 2009, he has developed and financed over 25 charter
-        schools — totaling over $300 million in investment — using conventional
-        bank loans, new market tax credits, tax exempt bonds, and various state
-        bonds. In two decades, he’s touched all aspects of the real estate
-        cycle, from investment to construction and development to property
-        management and corporate accounting.
+        Craig Underwood’s two-decade journey in public finance led him to launch Red Hook Capital Partners in 2013. He has oversight over all financing and fiscal guidance that the firm offers.
 
 
-        Prior to joining Red Hook Capital, Mr. Hyun worked for Westfield,
-        Trammell Crow Company, Playa Capital Company (Playa Vista Master
-        Development), and most recently he served as the CFO/COO at Alliance
-        College Ready Public Schools in Los Angeles.
-      grade_memory_title: Best grade school memory
-      grade_memory: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: images/uploads/home/leadership/david.jpg
+        Craig’s background includes serving as the chief executive of the BLX Group LLC, a leading public finance advisory and consulting firm for the past 20 years. Under his leadership, BLX has grown into a national firm with five offices across the country, representing hundreds of state/local governmental agencies and not-for-profits, including various charter school organizations. During his career, he has overseen debt, derivative and structured financial product transactions totaling over $40 billion in principal/notional amounts.
+      image: images/uploads/home/leadership/Craig_Underwood.jpg
+      email: cunderwood@redhookcap.com
+      name: Craig Underwood
+      role: Partner
+    - bio: >
+        David Hyun is responsible for setting up all back office systems and operations at Red Hook. He provides support to the project managers, including troubleshooting development hurdles and identifying cost-saving solutions. He has over two decades of experience in corporate accounting, finance, real estate, and charter school management. More specifically, he has been developing, financing and operating charter schools since 2009. He has developed and financed over $500 million of charter schools, using conventional bank loans, new market tax credits, tax-exempt bonds, and various state bonds (QSCB, QZAB, Prop. 1D).
+
+
+        Prior to joining Red Hook, David worked for Westfield, Trammell Crow Company, Playa Capital Company (Playa Vista Master Development), and most recently he served as the CFO/COO at Alliance College Ready Public Schools in Los Angeles. 
+      image: images/uploads/home/leadership/David_Hyun.jpg
       email: dhyun@redhookcap.com
       name: David Hyun
       role: Partner
     - bio: >
-        Craig Underwood’s two-decade journey in public finance led him to launch
-        Red Hook Capital Partners in 2013. He has oversight over all financing
-        and fiscal guidance that the firm offers, guiding clients through the
-        treacherous waters of institutional real estate development.
+        As Vice President at Red Hook, Enrique handles the site selection process with clients while developing budget, schedules, and feasibility strategies. He also oversees the project management team throughout the development process. With more than 25 years of planning, design and construction & project management experience in the public, private, and non-profit sectors, he has developed dozens of charter school projects for various Charter Management Organizations throughout Southern California . He previously worked with Alliance College-Ready Public Schools, Keller Construction Management Services, Warmington Homes California and the City of Santa Clarita.
 
-
-        Craig’s background includes serving as the chief executive of the BLX
-        Group LLC (BLX), a leading public finance advisory and consulting firm
-        for the past 20 years. Under his leadership, BLX has grown into a
-        national firm with five offices across the country, representing
-        hundreds of state/local governmental agencies and not-for-profits,
-        including various charter school organizations. During his career, he
-        has overseen debt, derivative and structured financial product
-        transactions totalling over $40 billion in principal/notional amounts.
-      grade_memory_title: Best grade school memory
-      grade_memory: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      image: images/uploads/home/leadership/craig.jpg
-      email: cunderwood@redhookcap.com
-      name: Craig Underwood
-      role: Partner
+        
+        Enrique is a LEED AP, NCARB-Certified, licensed architect in the State of California, and a member of the Design Review Board for the City of Whittier. Enrique has a degree in Architecture from the University of Southern California.
+      image: images/uploads/home/leadership/Enrique_Diaz.jpg
+      email: ediaz@redhookcap.com
+      name: Enrique Diaz
+      role: Vice President
+    - bio: >
+        Ron has served as project manager for three charter schools and a community center during his time with Red Hook. With thirty-plus years in architecture and construction management, Ron’s experience encompasses a wide range of projects: higher education and health care facilities, research labs, multi-unit residential developments, and even an airport terminal. Ron received a Master of Architecture degree from the University of California, Los Angeles, and is a LEED AP, and registered architect in both California and Oregon.
+      image: images/uploads/home/leadership/Ron_Johnson.jpg
+      email: rjohnson@redhookcap.com
+      name: Ron Johnson
+      role: Project Manager
+    - bio: >
+        Maria is responsible for the day-to-day project management and coordination with design teams and public agencies. She has managed a variety of charter school projects as well as assisted in the management of DSA projects and community centers. Maria's 11 years of experience in architectural design and project management also include commercial and residential projects as well as medical facilities.  Maria holds a Bachelor of Sociology and Master of Architecture from UCLA.
+      image: images/uploads/home/leadership/Maria_Gomez.jpg
+      email: mgomez@redhookcap.com
+      name: Maria Gomez
+      role: Project Manager
+    - bio: >
+        Hugo is a Red Hook project manager, having overseen two charter schools and various parking lot improvements during his tenure. With 16 years in architecture and project management, Hugo has expertise in single and multi-family residential developments as well as commercial projects ranging from small-scale mercantile to restaurants and mixed-use.  Hugo received a Bachelor of Architecture degree from the California State Polytechnic University, Pomona, and is a registered Architect in California. He is also a California licensed General Contractor with A & B classifications.
+      image: images/uploads/home/leadership/Hugo_Garcia.jpg
+      email: hgarcia@redhookcap.com
+      name: Hugo Garcia
+      role: Project Manager
+    - bio: >
+        Robert is responsible for day-to-day project management, including daily interaction with clients, design team consultants, contractors, and regulatory agencies and management of budget and schedule. He has over 33 years of experience in ground-up school construction, additions to existing schools, and major renovations of existing schools.
+      image: images/uploads/home/leadership/Robert_King.jpg
+      email: rking@redhookcap.com
+      name: Robert King
+      role: Project Manager
+    - bio: >
+        As a project manager at Red Hook, Sarineh is immersed in tenant improvement projects for several charter schools. Prior to joining, she worked for six years as an architectural project coordinator and interior designer specializing in charter school projects.  Sarineh graduated from California State University, Northridge with a Bachelor of Science degree in Interior Design.
+      image: images/uploads/home/leadership/Sarineh_Minasian.jpg
+      email: sminasian@redhookcap.com
+      name: Sarineh Minasian
+      role: Project Manager      
+    - bio: >
+        As a Senior Associate, Jack’s responsibilities include financial modeling, investor relations, business development, and client management. He works daily between the finance and development teams to ensure a project is properly handled from acquisition to disposition. Jack previously worked in real estate development, debt financing, and brokerage. Jack holds a B.S. in Business Administration with an emphasis in Real Estate Finance from the University of Southern California.
+      image: images/uploads/home/leadership/Jack_Kirkpatrick.jpg
+      email: jkirkpatrick@redhookcap.com
+      name: Jack Kirkpatrick
+      role: Senior Associate 
+    - bio: >
+        Alex supports Red Hook’s finance team in underwriting capital projects and day-to-day fiscal management. His primary responsibilities include financial modeling, valuations, credit analysis, market research, and investment memorandums. Alex frequently works alongside project managers and interacts with clients and investors. Since joining in 2019, Alex has played an integral role in underwriting acquisitions, maintaining held assets, and executing dispositions. Alex holds a B.A. in Economics from the University of Southern California. 
+      image: images/uploads/home/leadership/Alex_Mcadoo.jpg
+      email: amcadoo@redhookcap.com
+      name: Alex McAdoo
+      role: Financial Analyst
+    - bio: >
+        As the Controller at Red Hook, Leo maintains the accounting and provides the financial statements with the finance team. He has spent his professional career in education and mental health, advocating the improvement of schools and mental health services in communities that are disproportionately underfunded.  Leo holds a B.S. in Accounting from Loyola Marymount University, and is a CPA. 
+      image: images/uploads/home/leadership/Leo_Paolo_Fernando.jpg
+      email: NEEDSINFO@redhookcap.com
+      name: Leo Paolo Fernando
+      role: Controller
   details: >-
-    By merging smart financial planning with expertise, Red Hook brings a unique 
-    set of skills to the classroom. Together Craig and David have built a team 
-    that helps schools create top notch facilities to serve the underserved, all 
-    around the country.
+    The origin story of Red Hook Capital Partners informs the services it provides today.
   heading: Meet <br>the Team
   title: About Us
 faq:
   groups:
+    - question: Why should a school own its campus? 
+      answer: >
+        Ownership provides autonomy. That means no constraints from the landlord or your authorizer.  A school can control its own destiny -- plus, there will not be any surprise rental increases. Your monthly payments remain flat. In fact, when purchasing a school facility at the right time, annual facility payments can become fixed and lower than a lease with payments that inevitably rise. 
     - question: Why should I team up with Red Hook? 
       answer: >
-        A school will not pay anything until keys are delivered to the property and 
-        the school can move in! The school makes payments to Red Hook in the form 
-        of lease payments.
+        Red Hook specializes in evaluating school campus development.  We analyze risk --  including political, landuse and community support -- when trying to obtain permits to allow a school building on a property. We have an excellent track record of getting projects to the finish line and we are so confident that we guarantee it: if Red Hook does not get final approval for charter school use, a school can walk away from the project with no money out of pocket.  We provide 100% of the financing -- the school does not pay anything until the property is move-in ready.  We pride ourselves in understanding that each school is unique and has different needs; we make sure these needs are met through the design of the building. 
     - question: Why is Red Hook qualified? 
       answer: >
-        A school will not pay anything until keys are delivered to the property and 
-        the school can move in! The school makes payments to Red Hook in the form 
-        of lease payments.
-    - question: How does Red Hook help schools own its facility? 
+        Red Hook is led by Craig Underwood and David Hyun. Craig has decades of experience working on municipal bond deals, specifically with charter schools. He knows the ins and outs of financing a project and knows how to make facility ownership affordable for schools. David has a school’s best interests in mind because he was an operator himself. He led the Alliance College-Ready Public School as its CFO/COO.  He drove in-house development projects as the organization expanded campuses all while creating strong reserve funds. Together, the financing and development teams of Red Hook are a one-stop shop. 
+    - question: How does Red Hook help schools own its facility?
       answer: >
-        A school will not pay anything until keys are delivered to the property and 
-        the school can move in! The school makes payments to Red Hook in the form 
-        of lease payments.
+        Red Hook offers a Lease to Own model.  The model helps schools with limited enrollment (often due to space constraints); schools that have not received their renewal yet; and schools that have less-than-ideal cash reserves. It also helps schools avoid taking the risk of pre-development expenses to secure approval to build their campus. That risk includes costly out-of-pocket spending, a significant time investment, as well as the potential failure to gain approval. Overall, the Lease to Own model helps to create an affordable and responsible path to facility ownership.  
+    - question: Why do I need to lease from Red Hook? Why can’t I own my facility from the beginning? 
+      answer: >
+        Charter schools with great credit (think great FICO score), can access the tax exempt market immediately.  Schools who are younger might not be as credit worthy, and thus have a harder time accessing the tax exempt market.  Credit worthiness normally includes a solid history of financials, enrollment, and academics to gain favorable financing (think low interest rate).
+
+        If a school decides to finance a project themselves through municipal bonds or new market tax credits, the school will be liable for pre-development costs. If a school is not successful in obtaining the approval to proceed with the project, the school will have spent $200-800,000 of reserves with nothing to show for it. Red Hook takes this risk for the school with no financial commitment from the school if Red Hook fails to receive the approval. 
     - question: When does my school start to pay Red Hook? 
       answer: >
-        A school will not pay anything until keys are delivered to the property and 
-        the school can move in! The school makes payments to Red Hook in the form 
-        of lease payments.
-    - question: Why should a school own its campus?
+        A school pays nothing until keys are delivered to the property and the school can move in. Then, the school makes payments to Red Hook in the form of lease payments until the school owns the property, free and clear.
+    - question: What kind of financing do I use to buy the facility from Red Hook? 
       answer: >
-        A school will not pay anything until keys are delivered to the property and 
-        the school can move in! The school makes payments to Red Hook in the form 
-        of lease payments.
+        Red Hook clients can use any source of financing, including tax-exempt municipal bond financing, traditional bank loans and/or Community Development Financial Institutions (CDFI’s). Municipal bond financing is typically the most economical option for a charter school.
+
+        Most charter schools qualify for tax exempt financing.  Think of tax exempt municipal bonds as a way to borrow from a group of investors, rather than a bank. The “loan” acts similar to owning a house; you make fixed payments over a period of time and gain equity in the real estate. You can learn more about “muni bonds” here
+    - question: Do you have more questions? 
+      answer: >
+        Email us , we're here to help. 
   heading: You Ask, <br>We Answer
   title: FAQS
 careers:

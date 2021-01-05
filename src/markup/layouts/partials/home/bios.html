@@ -3,7 +3,8 @@
       <h2 class="bios__leadership__title">{{ .Params.leadership.title }}</h1>
       <p class="bios__leadership__heading">{{ .Params.leadership.heading | safeHTML }}</p>
     <button class="bios__close-btn">
-      {{ partial "svgs/close-x.svg" (dict "class" "bios__close-icon")}}
+      <!-- {{ partial "svgs/close-x.svg" (dict "class" "bios__close-icon")}} -->
+      <img src="/images/uploads/home/close-x.png" alt="">
     </button>
 
     {{ range .Params.leadership.leader }}
@@ -16,19 +17,39 @@
             <!-- <img src="{{ . }}" alt="" class="bio__img"> -->
           </div>
           {{ end }}
+          <div class="bio__meta">
+            <p class="bio__role mobile">{{ .role }}</p>
+            <h2 class="bio__title mobile">{{ .name }}</h2>
+            {{ if .grade_memory }}
+            <div class="bio__extra mobile">
+              <p class="title">{{ .grade_memory_title }}</p>
+              <p class="memory">“{{ .grade_memory | markdownify }}”</p>
+            </div>
+            {{ end }}  
+          </div>        
         </div>
 
         <div class="bio__copy-container">
 
           <p class="bio__role">{{ .role }}</p>
           <h2 class="bio__title">{{ .name }}</h2>
-          
-          <div class="bio__details" data-more="{{ substr .bio 173 | markdownify }}">
-            {{ $bio := .bio | markdownify | truncate 175 }}
-            {{ $more := ( printf "<span class='read-more'>Read More</span>" | safeHTML ) }}
-            {{ $more }}
-            {{ .bio | markdownify | truncate 175 }} 
+          {{ $more := ( printf "Read More"  ) }}
+          <div class="bio__details closed" data-read-more="{{ $more }}">
+            <div class="preview">
+            {{ $bio := .bio | markdownify | safeHTML | truncate 175 }}
+            {{ $bio }}
+            </div> 
+            <div class="bio-complete">
+              {{ .bio | markdownify | safeHTML }}
+            </div>
           </div>
+
+          {{ if .grade_memory }}
+          <div class="bio__extra">
+            <p class="title">{{ .grade_memory_title }}</p>
+            <p class="memory">“{{ .grade_memory | markdownify }}”</p>
+          </div>
+          {{ end }}
 
         </div>
       </div>

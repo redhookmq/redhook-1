@@ -138,6 +138,7 @@
 .bio__title {
   @include section-heading;
   font-size: 48px;
+  margin-top: 16px;
 }
 .bio__role {
   @include section-title;
@@ -146,11 +147,73 @@
 }
 .bio__details {
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 2.2;
+  overflow: hidden;
+  position: relative;
+
   p {
     margin-bottom: 32px;
+    &:first-of-type {
+      margin-top: 16px;
+    }
   }
+
+  .read-more {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .preview {
+    transition: all .3s linear;
+  }
+
+  .bio-complete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+
+  }
+
+  &.open {
+    .preview {
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+    }
+
+    .bio-complete {
+      opacity: 1;
+      pointer-events: all;
+      position: relative;
+    }
+  }
+
+} /// .bio__details
+
+.bio__extra {
+
+  border-left: 3px solid $red;
+  padding-left: 27px;
+
+  .title {
+    @include section-title;
+    font-size: 20px;
+    padding-left: 48px;
+    background-image: url(/images/uploads/home/leadership/idea-icon.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 2.2;
+  }
+
 }
+
+
 .bio__email {
   margin-top: 32px;
 }
@@ -173,25 +236,59 @@
   top: 3px;
 }
 
+.mobile {
+  display: none;
+}
+
 // mobile styles
 // single column
 // ----------------------------------------- //
 @media (max-width: $mobileNav) {
   .bios {
+    padding: 32px 0;
+
+    &__bio,
+    &__bi {
+      display: flex;
+      flex-flow: column;
+      &:first-of-type {
+        margin-top: 25px;
+      }
+      &:nth-child(odd) {
+        .bio__img-wrapper {
+          margin-right: 0;
+        }
+      }
+    }
 
   }
   .bios__container {
     @include container--sml;
-    padding-top: 41px;
+    padding-top: 0;
   }
-  .bio.is-current {
-    display: block;
+  // .bio.is-current {
+  //   display: block;
+  // }
+
+  .bios__leadership__title {
+    @include section-title--sml;
+  }
+  .bios__leadership__heading { 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
   }
   // close btn
   // ----------------------------------------- //
   .bios__close-btn {
     right: 20px;
-    top: 25px;
+    top: 33px;
+    height: 11px;
+    width: 11px;
+    img {
+      height: 11px;
+      width: 11px;
+    }
   }
   .bios__close-icon {
     width: 12px;
@@ -200,14 +297,23 @@
   // image
   // ----------------------------------------- //
   .bio__img-container {
-
+    display: flex;
+    width: 100%;
   }
   .bio__img-wrapper {
-    width: 41.5%;
-    max-width: 250px;
-    margin-bottom: 16px;
-    margin-right: auto;
-    margin-left: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    min-width: 125px;
+    flex: 0 0 37.8787%;
+    width: 37.8787%;
+    max-height: 150px;
+    height: auto;
+  }
+
+  .bio__meta {
+    flex: 0 0 62%;
   }
   // copy
   // ----------------------------------------- //
@@ -216,35 +322,66 @@
     padding-right: 0;
   }
   .bio__title {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 12px;
+    font-size: 18px;
+    margin-top: 8px;
+
   }
   .bio__role {
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 16px;
+    font-size: 10px;
+    margin-top: 8px;
   }
   .bio__details {
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 2;
+
+    .preview {
+      p {
+        margin-bottom: 0;
+      }
+    }
     p {
       margin-bottom: 22px;
     }
   }
+
+  .bio__extra {
+    margin-top: 10px;
+    padding-left: 12px;
+
+    .title {
+      background-size: 13px 16px;
+      font-size: 10px;
+      padding-left: 20px;
+    }
+
+    .memory {
+      font-size: 11px;
+      line-height: 2;
+    }
+  }
+
+  .bio__title,
+  .bio__role,
+  .bio__extra {
+    display: none;
+    &.mobile {
+      display: block;
+    }
+  }  
+
 }
 
 // hide side nav
 // ----------------------------------------- //
 @media (max-width: 630px) {
-  // nav
-  // ----------------------------------------- //
-  .bios__nav {
-    display: none;
-  }
-  // image
-  // ----------------------------------------- //
-  .bio__img-wrapper {
-    width: 53.5%;
-  }
+  // // nav
+  // // ----------------------------------------- //
+  // .bios__nav {
+  //   display: none;
+  // }
+  // // image
+  // // ----------------------------------------- //
+  // .bio__img-wrapper {
+  //   width: 53.5%;
+  // }
 }

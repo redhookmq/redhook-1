@@ -13,7 +13,8 @@
       <h3 class="services__video-instruction">{{ .Params.services.video_instruct }}</h3>
 
       <div class="services__overlap-image">
-        <img src="{{ .Params.services.overflow_image_lrg | relURL }}" />        
+        <img class="lrg" src="{{ .Params.services.overflow_image_lrg | relURL }}" /> 
+        <img class="small" src="{{ .Params.services.overflow_image_sml | relURL }}" />        
       </div>
 
     </div>
@@ -21,6 +22,16 @@
     <div class="services__col-right">
       <h1 class="services__title">{{ .Params.services.title | safeHTML }}</h1>
       <h2 class="services__heading">{{ .Params.services.heading | safeHTML }}</h2>
+
+      <div class="services__video mobile" style="background-image: url({{ .Params.services.video_image_lrg | relURL }});">
+        <div class="services__video-play-btn"></div>
+        <img class="services__video-keyframe-image" src="{{ .Params.services.video_image_lrg | relURL }}" />
+        <div class="services__video-container">     
+          <div class="services__responsive-video" data-video="{{ .Params.services.video_url }}"></div><!-- /.responsive-video -->
+        </div><!-- /.inline-video -->
+        <div class="mobile-spacer"></div>
+      </div>
+
       <!-- <p class="services__details"> -->
       <div class="services__details">
         {{ .Params.services.details | markdownify }}

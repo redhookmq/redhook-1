@@ -92,10 +92,17 @@
       }
       .contact__block {
         width: 100%;
-        padding: 25px 12px 20px;
+        padding: 25px 20px 20px;
+        // display: flex;
+        // flex-flow: column-reverse;
+        // flex-wrap: wrap;
+        // .contact__detail:last-child {
+        //   flex: 0 0 50%;
+        // }
       }
         .contact__detail:not(:last-child) {
           margin-bottom: 17px;
+          // width: 45%;
         }
           .contact__link {
             font-size: 14px;
@@ -122,7 +129,7 @@
               }
             .contact__text {
               strong {
-                display: inline-block;
+                display: none;
                 margin-top: 5px;
               }
             }
