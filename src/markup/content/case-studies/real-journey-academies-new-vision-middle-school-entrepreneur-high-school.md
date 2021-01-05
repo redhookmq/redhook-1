@@ -8,7 +8,7 @@ call_to_action: >-
   Red Hook’s partnership with RJA transformed an old Kmart into an impressive
   campus
 featured_image: /images/uploads/26655_Highland_Ave Highland California 46.jpg
-grid_layout: vertical
+grid_layout: horizontal
 services:
   - service: Middle school and high school
   - service: 'Highland, CA'
