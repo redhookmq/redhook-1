@@ -1,3 +1,4 @@
+{{ if .Params.touts }}
 <section class="touts">
   <div class="touts__container">
     {{ range $tout := .Params.touts }}
@@ -13,3 +14,4 @@
     {{ end }}
   </div>
 </section>
+{{ end }}
