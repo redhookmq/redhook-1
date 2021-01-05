@@ -7,7 +7,7 @@ description: >-
 call_to_action: >-
   Red Hook’s partnership with RJA transformed an old Kmart into an impressive
   campus
-featured_image: /images/uploads/26655_Highland_Ave Highland California 46.jpg
+featured_image: /images/uploads/26655_Highland_Ave-Highland-California-46.jpg
 grid_layout: horizontal
 services:
   - service: Middle school and high school
@@ -21,15 +21,15 @@ services:
   - service: 'Red Hook Role: Ground-up Turnkey Development'
   - service: Total Project Cost of $19.588 million
 gallery:
-  - image: /images/uploads/26655_Highland_Ave Highland California 47.jpg
-  - image: /images/uploads/26655_Highland_Ave Highland California 56.jpg
-  - image: /images/uploads/26655_Highland_Ave Highland California 58.jpg
-  - image: /images/uploads/26655_Highland_Ave Highland California 59.jpg
-  - image: /images/uploads/Black Box Teatre.jpeg
-  - image: /images/uploads/Google Stair.jpeg
+  - image: /images/uploads/26655_Highland_Ave-Highland-California-56.jpg
+  - image: /images/uploads/26655_Highland_Ave-Highland-California-59.jpg
+  - image: /images/uploads/26655_Highland_Ave-Highland-California-58.jpg
+  - image: /images/uploads/Google-Stair.jpeg
+  - image: /images/uploads/Black-Box-Teatre.jpeg
+  - image: /images/uploads/HS-Atrium.jpeg
   - image: /images/uploads/Gymnasium.jpeg
-  - image: /images/uploads/HS Atrium.jpeg
-  - image: /images/uploads/MS Fencing _ Yard.jpeg
+  - image: /images/uploads/26655_Highland_Ave-Highland-California-47.jpg
+  - image: /images/uploads/MS-Fencing _Yard.jpeg
 ---
 REAL Journey Academies’ (RJA) schools transform their communities by raising expectations for achievement, offering a high level of opportunity, and educating the next generation of leaders. Many of its students live in a single-family home with a 68% high school graduation rate. Almost 85% of the current student body are economically disadvantaged students. 
 
