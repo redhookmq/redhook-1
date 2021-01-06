@@ -169,29 +169,27 @@ faq:
   groups:
     - question: Why should a school own its campus? 
       answer: >
-        Ownership provides autonomy. That means no constraints from the landlord or your authorizer.  A school can control its own destiny -- plus, there will not be any surprise rental increases. Your monthly payments remain flat. In fact, when purchasing a school facility at the right time, annual facility payments can become fixed and lower than a lease with payments that inevitably rise. 
+        Ownership provides autonomy. This means no constraints from the landlord or your authorizer.  A school can control its own destiny -- plus, there will not be any further rental increases. Further, depending on the cost of your acquisition financing, your annual acquisition financing repayment may be materially lower than your lease payments. 
     - question: Why should I team up with Red Hook? 
       answer: >
         Red Hook specializes in evaluating school campus development.  We analyze risk --  including political, landuse and community support -- when trying to obtain permits to allow a school building on a property. We have an excellent track record of getting projects to the finish line and we are so confident that we guarantee it: if Red Hook does not get final approval for charter school use, a school can walk away from the project with no money out of pocket.  We provide 100% of the financing -- the school does not pay anything until the property is move-in ready.  We pride ourselves in understanding that each school is unique and has different needs; we make sure these needs are met through the design of the building. 
     - question: Why is Red Hook qualified? 
       answer: >
-        Red Hook is led by Craig Underwood and David Hyun. Craig has decades of experience working on municipal bond deals, specifically with charter schools. He knows the ins and outs of financing a project and knows how to make facility ownership affordable for schools. David has a school’s best interests in mind because he was an operator himself. He led the Alliance College-Ready Public School as its CFO/COO.  He drove in-house development projects as the organization expanded campuses all while creating strong reserve funds. Together, the financing and development teams of Red Hook are a one-stop shop. 
-    - question: How does Red Hook help schools own its facility?
+        Red Hook is led by David Hyun and Craig Underwood. David always has a school’s best interests in mind because he was an operator himself. He led the Alliance College-Ready Public School as its CFO/COO.  He drove in-house development projects as the organization expanded campuses all while creating strong reserve funds. Craig has decades of experience working in the capital markets,, specifically with charter schools. He knows the ins and outs of financing a project and knows how to make facility ownership affordable for schools. Together, the financing and development teams of Red Hook are a one-stop shop. 
+    - question: How does Red Hook help a school own its facility?
       answer: >
         Red Hook offers a Lease to Own model.  The model helps schools with limited enrollment (often due to space constraints); schools that have not received their renewal yet; and schools that have less-than-ideal cash reserves. It also helps schools avoid taking the risk of pre-development expenses to secure approval to build their campus. That risk includes costly out-of-pocket spending, a significant time investment, as well as the potential failure to gain approval. Overall, the Lease to Own model helps to create an affordable and responsible path to facility ownership.  
     - question: Why do I need to lease from Red Hook? Why can’t I own my facility from the beginning? 
       answer: >
-        Charter schools with great credit (think great FICO score), can access the tax exempt market immediately.  Schools who are younger might not be as credit worthy, and thus have a harder time accessing the tax exempt market.  Credit worthiness normally includes a solid history of financials, enrollment, and academics to gain favorable financing (think low interest rate).
+        Charter schools with strong credit (think great FICO score) can directly access a variety of permanent financing options.  Schools who are younger might not have the necessary longevity to be viewed as credit worthy, and thus likely will have a greater difficulty accessing traditional financing.  Credit worthiness normally includes a solid history of financials, enrollment, and academics to gain favorable financing (think low interest rate).
 
-        If a school decides to finance a project themselves through municipal bonds or new market tax credits, the school will be liable for pre-development costs. If a school is not successful in obtaining the approval to proceed with the project, the school will have spent $200-800,000 of reserves with nothing to show for it. Red Hook takes this risk for the school with no financial commitment from the school if Red Hook fails to receive the approval. 
+        If a school decides to directly finance a project themselves through traditional means like philanthropy, new market tax credits, traditional bank loans or municipal bonds, the school will be liable for pre-development costs. If a school is unsuccessful in obtaining the approval to proceed with the project, the school will have spent $200,000-$800,000 of its valuable reserves with nothing to show for it. Red Hook takes this risk for the school with no financial commitment from the school if Red Hook fails to receive the necessary approvals.
     - question: When does my school start to pay Red Hook? 
       answer: >
-        A school pays nothing until keys are delivered to the property and the school can move in. Then, the school makes payments to Red Hook in the form of lease payments until the school owns the property, free and clear.
+        A school pays nothing until keys are delivered to the property and the school can move in. Then, the school makes payments to Red Hook in the form of lease payments until the school acquires the property from Red Hook.
     - question: What kind of financing do I use to buy the facility from Red Hook? 
       answer: >
-        Red Hook clients can use any source of financing, including tax-exempt municipal bond financing, traditional bank loans and/or Community Development Financial Institutions (CDFI’s). Municipal bond financing is typically the most economical option for a charter school.
-
-        Most charter schools qualify for tax exempt financing.  Think of tax exempt municipal bonds as a way to borrow from a group of investors, rather than a bank. The “loan” acts similar to owning a house; you make fixed payments over a period of time and gain equity in the real estate. You can learn more about “muni bonds” here
+        Red Hook clients have access to a number of financing options, including traditional bank debt, philanthropic funding,  Community Development Financial Institutions (CDFI’s), and the municipal bond market.
     - question: Do you have more questions? 
       answer: >
         Email us , we're here to help. 
