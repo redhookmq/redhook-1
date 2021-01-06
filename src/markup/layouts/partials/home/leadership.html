@@ -4,7 +4,9 @@
       <h1 class="leadership__title">{{ .Params.leadership.title }}</h1>
       <p class="leadership__heading">{{ .Params.leadership.heading | safeHTML }}</p>
       <p class="leadership__details">{{ .Params.leadership.details }}</p>
-      <button class="leadership__all-button default">
+      {{ range first 1 .Params.leadership.leader }}
+      <button class="leadership__all-button leader__link default" data-href="#{{ urlize .name }}">
+  	  {{ end }}
         <span class="leadership-all">All Team Bios</span>
       </button>
     </div>
@@ -26,9 +28,12 @@
           </a>
         </div>
       {{ end }}
-      <button class="leadership__all-button default mobile">
+      {{ range first 1 .Params.leadership.leader }}
+      <button class="leadership__all-button leader__link default mobile" data-href="#{{ urlize .name }}">
+  	  {{ end }}
         <span class="leadership-all">All Team Bios</span>
       </button>
     </div>
   </div>
 </section>
+

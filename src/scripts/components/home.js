@@ -50,7 +50,11 @@ $leaderLinks.each((i, el) => {
 
   $el.click((e) => {
     e.preventDefault();
-    openBio($el.attr('href').replace('#', ''));
+    if ( $el.data('href') !== undefined ) {
+    	openBio($el.data('href').replace('#', ''));
+    } else {
+    	openBio($el.attr('href').replace('#', ''));
+    }
   });
 });
 
@@ -188,26 +192,21 @@ $(".services__video").on("click", function (ev) {
 });
 
 $(".bio__details.closed .preview").each( function() {
-    if ( ! $(this).children('p').length ) {
-      var cont = $(this);
-      var content = cont.html();
-      content = '<p>' + content + '</p>';
-      cont.html(content);
+	if ( ! $(this).children('p').length ) {
+		var cont = $(this);
+		var content = cont.html();
+		content = '<p>' + content + '</p>';
+		cont.html(content);
 
-      var complete = $(this).siblings('.bio-complete');
-      var complete_bio = complete.html();
-      complete_bio = '<p>' + complete_bio + '</p>';
+		var complete = $(this).siblings('.bio-complete');
+		var complete_bio = complete.html();
+		complete_bio = '<p>' + complete_bio + '</p>';
 
-      complete.html(complete_bio);
+		complete.html(complete_bio);
 
-    } else {
+	}
+});
 
-    }
-  });
-
-// if ( !$(".bio__details.closed .preview p").length ) {
-//   $(".bio__details.closed .preview").prepend('<p>').append('</p>');
-// }
 
 $(".bio__details.closed .preview p").append("<span class='read-more'> " + $('.bio__details.closed').data("read-more") + "</span>");
 const $readmorelink = $('.bio__details .read-more');
@@ -221,16 +220,4 @@ $readmorelink.on('click', function(e){
 
 
 
-// $accordion.click((e) => {
-//   e.preventDefault();
-//   triggerAccordion();
-// });
-
-// const triggerAccordion = function() {
-//   console.log($(this));
-//   $accordionDesc.not(
-//     $(this).next()
-//     ).slideUp('fast');
-//   $(this).next($accordionDesc).slideToggle(400);
-// };
 

@@ -12,7 +12,8 @@ const $mask = $('.site-container__mask');
 const $siteNav = $('.site-nav');
 const $mobNav = $('.site-header');
 const $menuBtn = $('.menu-btn');
-const $links = $('.js-nav-link');
+const $links = $('.primary .js-nav-link');
+const $csLinks = $('.case-study .js-nav-link');
 const $siteSections = $('.js-site-section');
 let windowHeight = $window.height();
 let isSticky = false;
@@ -53,6 +54,17 @@ const bind = function () {
     $el.click((e) => {
       e.preventDefault();
       scrollToSection(id);
+    });
+  });
+
+  $csLinks.each((i, el) => {
+    const $el = $(el);
+    const id = $el.attr('href');
+
+    $el.click((e) => {
+    window.location.href = '/'+id;
+      // e.preventDefault();
+      // scrollToSection(id);
     });
   });
 
