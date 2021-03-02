@@ -223,6 +223,26 @@ logos:
       title:
     - image: /images/uploads/home/logo-scroller/lvip-high-school-logo.png
       title:
+    - image: /images/uploads/home/logo-scroller/AIA.png
+      title:
+    - image: /images/uploads/home/logo-scroller/CWC.png
+      title:
+    - image: /images/uploads/home/logo-scroller/HDMS.png
+      title:
+    - image: /images/uploads/home/logo-scroller/LIBERTAS.png
+      title:
+    - image: /images/uploads/home/logo-scroller/RJA.png
+      title:
+    - image: /images/uploads/home/logo-scroller/SCHOLARSHIP_PREP.png
+      title:
+    - image: /images/uploads/home/logo-scroller/SCVI.png
+      title:
+    - image: /images/uploads/home/logo-scroller/TEACH.png
+      title: 
+    - image: /images/uploads/home/logo-scroller/VALUESCHOOLS.png
+      title:
+    - image: /images/uploads/home/logo-scroller/VISTA_CONDOR.png
+      title:     
 contact_form:
   details: >-
     Please contact us for any questions, comments, or inquiries you may have using 
